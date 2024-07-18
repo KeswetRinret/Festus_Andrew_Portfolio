@@ -7,7 +7,7 @@ const Works = () => {
     <div className="container mx-auto my-6 max-w-full mt-12">
       <div className="flex justify-between mx-32 ">
         <p className="font-primaryFont text-4xl font-semibold">My Works</p>
-          <Link to={"/"}>
+          <Link to={"./Works"}>
         <p class="font-primaryFont text-xl font-semibold relative group">
           All Works
           <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-black group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
@@ -18,7 +18,7 @@ const Works = () => {
 
       <div className=" flex  justify-center items-center space-x-10 mt-14">
         <div className="relative overflow-hidden ">
-          <Link to={"/"}>
+          <Link to={"./Marb"}>
             <img
               className=" w-[500px] h-[550px] rounded-2xl "
               src={Laptop}

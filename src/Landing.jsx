@@ -4,6 +4,7 @@ import Works from './components/myWorks/Works'
 import Services from './components/Services'
 import About from './components/About'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 const Landing = () => {
@@ -14,6 +15,7 @@ const Landing = () => {
       <Services />
       <About />
       <Contact />
+      <Footer />
     </div>
   )
 }

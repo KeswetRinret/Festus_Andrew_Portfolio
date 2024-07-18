@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const Contact = (props) => {
   return (
     <div className="mx-32 mt-20 mb-6 ">
         <div>
@@ -22,7 +22,7 @@ const Contact = () => {
             together to meet your objectives!
             
             <div className=" mt-10 text-3xl font-tertiaryFont font-semibold relative group">
-            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
             festusandrew23@gmail.com</div>
           </p>
         </div>

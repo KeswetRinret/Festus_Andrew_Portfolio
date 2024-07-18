@@ -6,6 +6,7 @@ import  Works from "./components/myWorks/Works"
 import Landing from './Landing'
 import Services from './components/Services'
 import Marb from './components/myWorks/Marb'
+import About from './components/About'
 
 
 
@@ -19,6 +20,8 @@ const App = () => {
         <Route path="/works" element={<Works />}/>
         <Route path="/services" element={<Services />}/>
         <Route path="/marb" element={<Marb />}/>
+        <Route path="/about" element={<About />}/>
+
       </Routes>
       {/* <Navbar /> */}
     </div>
