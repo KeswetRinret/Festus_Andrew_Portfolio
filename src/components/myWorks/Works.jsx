@@ -1,5 +1,4 @@
 import React from "react";
-import Laptop from "../../assets/images/Laptop.jpg";
 import { Link } from "react-router-dom";
 
 const Works = () => {
@@ -20,8 +19,8 @@ const Works = () => {
         <div className="relative overflow-hidden ">
           <Link to={"./Marb"}>
             <img
-              className=" w-[500px] h-[550px] rounded-2xl "
-              src={Laptop}
+              className=" w-[550px] h-[600px] object-cover rounded-2xl hover:scale-110 transition duration-500 cursor-pointer "
+              src="https://framerusercontent.com/images/ZuDzZNFD4y4ZbZ3Cf9QFDB0vGs.jpg?scale-down-to=2048"
               alt="Marb Store"
             />
             <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">
@@ -32,10 +31,10 @@ const Works = () => {
         </div>
 
         <div className="relative overflow-hidden ">
-          <Link to={"/"}>
+          <Link to={"./ProClub"}>
             <img
-              className="w-[500px] h-[550px] rounded-2xl"
-              src={Laptop}
+              className="w-[550px] h-[600px] object-cover rounded-2xl"
+              src="https://framerusercontent.com/images/kYjjTQZX4yro1jpWWY7stCFLY.jpg"
               alt=""
             />
             <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">
@@ -50,10 +49,10 @@ const Works = () => {
 
       <div className=" flex  justify-center items-center space-x-10 mt-8">
         <div className="relative overflow-hidden">
-          <Link to={"/"}>
+          <Link to={"./Infinity"}>
             <img
-              className=" w-[500px] h-[550px] rounded-2xl"
-              src={Laptop}
+              className="object-cover w-[550px] h-[600px] rounded-2xl"
+              src="https://framerusercontent.com/images/DjmKQYQKRd2h0Q1wAkfkOGHIYw.jpg"
               alt=""
             />
             <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">
@@ -64,10 +63,10 @@ const Works = () => {
         </div>
 
         <div className="relative overflow-hidden">
-          <Link to={"/"}>
+          <Link to={"./Wander"}>
             <img
-              className="w-[500px] h-[550px] rounded-2xl"
-              src={Laptop}
+              className="w-[550px] h-[600px] object-cover rounded-2xl"
+              src="https://framerusercontent.com/images/WisIsy97GUDG2UDk2aEq1F6MUaY.jpg?scale-down-to=2048"
               alt=""
             />
             <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">

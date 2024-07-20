@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { BsTwitterX } from "react-icons/bs";
-import { FaDribbble } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa";
 
-const Navbar = () => {
+const Hero = () => {
   return (
     <div className="container mx-auto my-6">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
@@ -26,8 +26,8 @@ const Navbar = () => {
 
       <div className="flex justify-center w-full ">
         <div className="space-y-16 mt-8 pl-44 w-[25%]">
-          <BsTwitterX className="w-10 h-10" />
-          <FaDribbble className="w-10 h-10" />
+          <BsTwitterX className="w-8 h-10" />
+          <FaLinkedin className="w-8 h-10"/>
           <IoLogoInstagram className="w-10 h-10" />
         </div>
 
@@ -40,13 +40,16 @@ const Navbar = () => {
             I am a Designer based in Jos, Nigeria
           </p>
 
-          <div className=" space-x-4 mt-12 pl-12">
+          <div href="contact" className=" space-x-4 mt-12 pl-12">
             <button className="border rounded-full px-10 p-4 font-bold text-lg bg-primaryColor text-white hover:bg-hoverColor">
-              Let's Work Together
+              <a href="#contact">Let's work together</a>
             </button>
-            <button className="border rounded-full px-10 p-4 font-bold text-lg bg-slate-100 hover:bg-slate-200">
-              My Experience
-            </button>
+
+            <Link to={"./MoreAbout"}>
+              <button className="border rounded-full px-10 p-4 font-bold text-lg bg-slate-100 hover:bg-slate-200">
+                My Experience
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -54,4 +57,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Hero;

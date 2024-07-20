@@ -7,7 +7,10 @@ import Landing from './Landing'
 import Services from './components/Services'
 import Marb from './components/myWorks/Marb'
 import About from './components/About'
-
+import ProClub from './components/myWorks/ProClub'
+import Infinity from './components/myWorks/Infinity'
+import Wander from './components/myWorks/Wander'
+import MoreAbout from './components/otherPages/MoreAbout'
 
 
 
@@ -21,6 +24,10 @@ const App = () => {
         <Route path="/services" element={<Services />}/>
         <Route path="/marb" element={<Marb />}/>
         <Route path="/about" element={<About />}/>
+        <Route path="/proClub" element={<ProClub />}/>
+        <Route path="/infinity" element={<Infinity />}/>
+        <Route path="/wander" element={<Wander/>}/>
+        <Route path="/moreAbout" element={<MoreAbout/>}/>
 
       </Routes>
       {/* <Navbar /> */}

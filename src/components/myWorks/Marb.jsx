@@ -19,7 +19,7 @@ const Marb = () => {
 
       <div className="flex items-center justify-center mt-8">
         <img
-          // className=" w-[1000px] h-[550px] rounded-2xl "
+          className="object-cover h-[600px] w-dvw rounded-xl "
           // src={Laptop}
           src="https://framerusercontent.com/images/ZuDzZNFD4y4ZbZ3Cf9QFDB0vGs.jpg?scale-down-to=2048"
           alt="Marb Store"
@@ -94,18 +94,18 @@ const Marb = () => {
           into the cycle, ensuring the brand's enduring resonance and relevance.
         </p>
       </div>
-      <div className="flex items-center justify-center mt-12">
+      <div className="flex items-center justify-center mt-16">
         <img
-          className=" w-[1000px] h-[550px] rounded-2xl "
-          src={Laptop}
+          className="object-cover h-[600px] w-dvw rounded-xl"
+          src="https://framerusercontent.com/images/RcPneXyIYHylJg9O5zIYAFkaYw.jpg?scale-down-to=2048"
           alt="Marb Store"
         />
       </div>
 
-      <div className="flex items-center justify-center mt-8">
+      <div className="flex items-center justify-center mt-16">
         <img
-          className=" w-[1000px] h-[550px] rounded-2xl "
-          src={Laptop}
+          className=" object-cover h-[600px] w-dvw rounded-xl "
+          src="https://framerusercontent.com/images/bVFqO2djh4Z4ijH0AzoI2Aozo.jpg"
           alt="Marb Store"
         />
       </div>
@@ -128,18 +128,18 @@ const Marb = () => {
           premium bags and unmatched customer satisfaction.
         </p>
 
-        <div className="flex items-center justify-center mt-12">
+        <div className="flex items-center justify-center mt-16">
           <img
-            className=" w-[1000px] h-[550px] rounded-2xl "
-            src={Laptop}
+            className=" object-cover h-[600px] w-dvw rounded-xl "
+            src="https://framerusercontent.com/images/hzL4ehQKmdkQmUTF814YViCOJ5g.jpg"
             alt="Marb Store"
           />
         </div>
 
-        <div className="flex items-center justify-center mt-12">
+        <div className="flex items-center justify-center mt-16">
           <img
-            className=" w-[1000px] h-[550px] rounded-2xl "
-            src={Laptop}
+            className=" object-cover h-[600px] w-dvw rounded-xl "
+            src="https://framerusercontent.com/images/9PNSzHhfGXSW26rY8kUd4OOHaY.jpg"
             alt="Marb Store"
           />
         </div>
@@ -192,7 +192,33 @@ const Marb = () => {
             </p>
           </div>
         </div>
-      <div>{Footer}</div>
+
+        <div className='mb-10'>
+       <hr className="mt-12" />
+      <footer className="mt-16 flex">
+        <p className="w-[60%] text-xl font-tertiaryFont">
+          © 2023 Templify by Patryk Moskot
+        </p>
+
+        <div className=" w-[40%] flex justify-end ">
+            <Link to={"./Works"}>
+          <p className="font-primaryFont text-3xl  relative group">
+            Work
+            <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+          </p>
+          </Link>
+
+          <Link to={"./About"}>
+          <p className="text-3xl ml-8 font-primaryFont relative group">
+            
+            About
+            <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+          </p>
+          </Link>
+        </div>
+
+      </footer>
+    </div>
      
     </div>
   );
