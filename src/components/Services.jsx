@@ -12,7 +12,7 @@ const Services = () => {
             <div className='text-8xl flex items-center font-secondaryFont'>1</div>
       <div className=''>
         <p className='text-3xl font-tertiaryFont font-semibold'>Branding</p>
-        <p className='font-tertiaryFont text-lg mt-4'>Revealing your brand's core with a meticulous mix of visuals and strategy.
+        <p className='font-secondaryFont text-lg mt-4'>Revealing your brand's core with a meticulous mix of visuals and strategy.
              Crafting enduring identities that resonate.</p>
       </div>
       </div>

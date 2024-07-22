@@ -10,7 +10,7 @@ const About = () => {
       <div>
         <p className="text-5xl font-tertiaryFont font-semibold">About</p>
       </div>
-      <hr className="mt-10"  />
+      <hr className="mt-10" />
 
       <div className="flex justify-between mt-8">
         <div className="w-[60%]">
@@ -27,18 +27,56 @@ const About = () => {
           </p>
           <div className="flex items-center">
             <a href="moreAbout">
-            <button className=" border  rounded-full px-6 py-3 mt-6 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
-              More about me
-            </button>
+              <button className=" border  rounded-full px-6 py-3 mt-6 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
+                More about me
+              </button>
             </a>
-          
 
             <div className="flex gap-8 mt-4 pl-14">
-              
-                <BsTwitterX className="w-8 h-10" />
-                <FaLinkedin className="w-8 h-10"/>
-                <IoLogoInstagram className="w-10 h-10" />
-            
+              <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
+                <span>
+                  <svg
+                    className="w-10 h-10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"></path>
+                  </svg>
+                </span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/festusandrew?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <span>
+                  <svg
+                    className="w-10 h-10 "
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
+                  </svg>
+                </span>
+              </a>
+
+              <a href="https://www.instagram.com/1st_2s?igsh=Y29kZG53b2ptbDlu">
+                <span>
+                  <svg
+                    className="w-10 h-10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+                  </svg>
+                </span>
+              </a>
             </div>
           </div>
         </div>

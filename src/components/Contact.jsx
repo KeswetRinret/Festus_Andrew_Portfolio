@@ -15,7 +15,7 @@ const Contact = () => {
               Let's <br /> work <br /> together
             </p>
 
-            <p className="w-1/2 font-secondaryFont text-xl leading-10">
+            <p className="w-1/2 font-secondaryFont text-xl leading-8">
               I'm very happy to tackle new challenges and dive into the most
               innovative projects. If you are looking for a dedicated and
               enthusiastic designer to enhance your vision, this is where it

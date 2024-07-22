@@ -11,6 +11,7 @@ import ProClub from './components/myWorks/ProClub'
 import Infinity from './components/myWorks/Infinity'
 import Wander from './components/myWorks/Wander'
 import MoreAbout from './components/otherPages/MoreAbout'
+import MyWork2 from './components/otherPages/MyWork2'
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/infinity" element={<Infinity />}/>
         <Route path="/wander" element={<Wander/>}/>
         <Route path="/moreAbout" element={<MoreAbout/>}/>
+        <Route path="/myWork2" element={<MyWork2/>}/>
 
       </Routes>
       {/* <Navbar /> */}
