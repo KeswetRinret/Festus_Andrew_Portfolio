@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const Footer = (props) => {
+
+const Footer = () => {
   return (
     <div className="mx-32 mb-10">
       <hr className="mt-12" />

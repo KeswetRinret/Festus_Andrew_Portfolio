@@ -12,8 +12,8 @@ const Landing = () => {
     <div>
       <Hero />
       <Works />
-      <Services />
       <About />
+      <Services />
       <Contact />
       <Footer />
     </div>

@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { BsTwitterX } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io5";
+
 
 const About = () => {
   return (

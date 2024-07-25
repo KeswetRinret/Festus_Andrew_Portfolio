@@ -1,9 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/landingPage/Hero'
-// import MyWorks from './components/myWorks'
-import  Works from "./components/myWorks/Works"
 import Landing from './Landing'
+import  Works from "./components/myWorks/Works"
 import Services from './components/Services'
 import Marb from './components/myWorks/Marb'
 import About from './components/About'
