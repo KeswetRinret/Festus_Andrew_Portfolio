@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center w-full ">
-        <div className="mt-12 pl-72 w-[25%]">
+        <div className="mt-12 pl-72 w-[25%] hidden md:block ">
           <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
             <span>
               <svg

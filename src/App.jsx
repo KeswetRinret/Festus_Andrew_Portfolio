@@ -16,7 +16,7 @@ import MyWork2 from './components/otherPages/MyWork2'
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Routes>
         <Route path="/" element={<Landing />}/> 
         <Route path="/works" element={<Works />}/>
