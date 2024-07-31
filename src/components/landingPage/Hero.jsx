@@ -23,6 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center w-full ">
+        <div className="mt-12 pl-72 w-[25%] hidden md:block ">
         <div className="mt-12 pl-44 w-[25%]">
           <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
             <span>

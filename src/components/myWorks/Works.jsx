@@ -15,7 +15,7 @@ const Works = () => {
       </div>
       <hr className="mx-32 mt-6 border " />
 
-      <div className=" flex  justify-center items-center space-x-10 mt-14">
+      <div className=" flex  justify-center items-center gap-8 mx-3 md:mx-0  mt-14 flex-col md:flex-row">
         <div className="relative overflow-hidden ">
           <Link to={"./Marb"}>
             <img
@@ -47,7 +47,7 @@ const Works = () => {
         </div>
       </div>
 
-      <div className=" flex  justify-center items-center space-x-10 mt-8">
+      <div className=" flex  justify-center items-center gap-8 mx-3 md:mx-0 mt-8 flex-col md:flex-row">
         <div className="relative overflow-hidden">
           <Link to={"./Infinity"}>
             <img
