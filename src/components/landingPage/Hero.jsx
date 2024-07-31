@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto h-lvh my-6">
+    <div className="container mx-auto my-6">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <NavLink to={"/"}>
           <img
@@ -13,7 +13,7 @@ const Hero = () => {
             alt=""
           />
         </NavLink>
-        <button className="flex justify-center items-center my-4 font-primaryFont font-semibold text-primaryColor rounded-full border-2 p-2 px-6">
+        <button className="flex justify-center items-center  font-primaryFont font-semibold text-primaryColor rounded-full border-2 p-2 px-6">
           <span class="relative flex h-3 w-3 mr-2">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center w-full ">
-        <div className="mt-12 pl-72 w-[25%]">
+        <div className="mt-12 pl-44 w-[25%]">
           <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
             <span>
               <svg
@@ -70,16 +70,16 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="w-[75%] mt-10 ml-12 ">
-          <p className="font-tertiaryFont ml-16 text-6xl font-semibold leading-tight">
+        <div className="w-[75%] mt-10 ">
+          <p className="font-tertiaryFont ml-12 text-6xl font-semibold leading-tight">
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
-          <p className="mt-6 font-tertiaryFont text-xl ml-28">
+          <p className="mt-6 font-tertiaryFont text-xl ml-20">
             I am a Designer based in Jos, Nigeria
           </p>
 
-          <div href="contact" className="space-x-6 mt-16 pl-12 ml-16">
+          <div href="contact" className="space-x-6 mt-16 pl-12 ml-10">
             <button className="border rounded-full px-4 p-2 font-bold text-lg bg-primaryColor text-white hover:bg-hoverColor">
               <a href="#contact">Let's work together</a>
             </button>

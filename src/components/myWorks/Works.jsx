@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
-    <div className="container mx-auto my-6 max-w-full mt">
+    <div className="container mx-auto my-6 max-w-full">
       <div className="flex justify-between mx-32 ">
         <p className="font-primaryFont text-4xl font-semibold">My Works</p>
           <Link to={"./MyWork2"}>
