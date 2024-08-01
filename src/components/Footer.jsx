@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="md:mx-32 mx-4 md:mb-10 mb-4">
+    <div className="md:mx-32 mx-4 md:mb-10 mb-6">
       <hr className="md:mt-12 mt-6" />
       <footer className="md:mt-16 mt-8 flex">
         <p className="md:w-[60%] md:text-xl md:font-tertiaryFont hidden md:block">

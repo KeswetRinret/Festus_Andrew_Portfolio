@@ -23,7 +23,7 @@ const About = () => {
             Bluehouse Technologies. With over four years of experience in the
             field, I've had the privilege to delve into various facets of
             product design, honing my skills and expanding my knowledge along
-            the way. <br /> <br /> At Bluehouse, I serve not only as a product
+            the way. <br /> <br className="md:block hidden" /> At Bluehouse, I serve not only as a product
             designer but also as a mentor and the current lead of our dynamic
             design team. Collaborating with talented individuals and guiding
             them toward achieving their full potential has been one of the most
