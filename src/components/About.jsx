@@ -3,15 +3,22 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mx-32 mt-20 h-fit">
+    <div className="md:mx-32 mx-4 md:mt-20 mt-10 h-fit">
       <div>
-        <p className="text-5xl font-tertiaryFont font-semibold">About</p>
+        <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">About</p>
       </div>
-      <hr className="mt-10" />
+      <hr className="md:mt-10 mt-6" />
 
-      <div className="flex justify-between mt-8">
-        <div className="w-[60%]">
-          <p className="text-xl mt-8 font-secondaryFont leading-8 ">
+      <div className="flex md:flex-row-reverse flex-col justify-between mt-8">
+      <div className="md:w-[40%] w-auto">
+          <img
+            className="rounded-full md:size-auto size-60 ml-12"
+            src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
+            alt=""
+          />
+        </div>
+        <div className="md:w-[60%] w-auto">
+          <p className="md:text-xl text-lg md:mt-8 mt-6 font-secondaryFont md:leading-8 leading-7 ">
             Hello! I'm Festus Andrew, a passionate product designer with
             Bluehouse Technologies. With over four years of experience in the
             field, I've had the privilege to delve into various facets of
@@ -22,14 +29,15 @@ const About = () => {
             them toward achieving their full potential has been one of the most
             rewarding aspects of my career.
           </p>
-          <div className="flex items-center">
+
+          <div className="flex md:flex-row flex-col items-center">
             <a href="moreAbout">
-              <button className=" border  rounded-full px-6 py-3 mt-6 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
+              <button className=" border  rounded-full px-28 py-3 md:mt-6 mt-4 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
                 More about me
               </button>
             </a>
 
-            <div className="flex gap-8 mt-4 pl-14">
+            <div className="flex md:gap-8 gap-10 md:mt-4 mt-7 md:pl-14 ">
               <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
                 <span>
                   <svg
@@ -77,13 +85,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-[40%]">
-          <img
-            className="rounded-full"
-            src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
-            alt=""
-          />
-        </div>
+        
       </div>
     </div>
   );

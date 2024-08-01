@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto md:my-5 my-2">
+    <div className="container mx-auto md:my-5">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <NavLink to={"/"}>
           <img
@@ -13,7 +13,7 @@ const Hero = () => {
             alt=""
           />
         </NavLink>
-        <button className="flex justify-center items-center  font-primaryFont font-semibold text-primaryColor rounded-full border-2 p-2 px-6">
+        <button className="flex justify-center items-center font-primaryFont font-semibold text-primaryColor rounded-full border-2 p-2 md:px-6 px-4">
           <span class="relative flex h-3 w-3 mr-2">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
@@ -75,7 +75,7 @@ const Hero = () => {
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
-          <p className="md:mt-7 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl md:ml-36 ml-10 ">
+          <p className="md:mt-7 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl md:ml-36 ml-14 ">
             I am a Designer based in Jos, Nigeria.
           </p>
 

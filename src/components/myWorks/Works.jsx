@@ -23,8 +23,8 @@ const Works = () => {
               src="https://framerusercontent.com/images/ZuDzZNFD4y4ZbZ3Cf9QFDB0vGs.jpg?scale-down-to=2048"
               alt="Marb Store"
             />
-            <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">
-              <h3 className="md:mb-2 text-3xl font-semibold">Marb Store</h3>
+            <div className="absolute bottom-0 text-white md:p-10 p-6 font-tertiaryFont ">
+              <h3 className="md:mb-2 md:text-3xl text-2xl font-semibold">Marb Store</h3>
               <p className=" text-white cursor-pointer">UI/UX,Branding</p>
             </div>
           </Link>
@@ -37,8 +37,8 @@ const Works = () => {
               src="https://framerusercontent.com/images/kYjjTQZX4yro1jpWWY7stCFLY.jpg"
               alt=""
             />
-            <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">
-              <h3 className="mb-2 text-3xl font-semibold">
+            <div className="absolute bottom-0 text-white md:p-10 p-4 font-tertiaryFont  ">
+              <h3 className="md:mb-2 md:text-3xl text-2xl font-semibold">
                 ProDevelopers Club
               </h3>
               <p className=" text-white cursor-pointer">UI/UX,Branding</p>
@@ -55,8 +55,8 @@ const Works = () => {
               src="https://framerusercontent.com/images/DjmKQYQKRd2h0Q1wAkfkOGHIYw.jpg"
               alt=""
             />
-            <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">
-              <h3 className="mb-2 text-3xl font-semibold">Infinity Gem</h3>
+            <div className="absolute bottom-0 text-white md:p-10 p-4 font-tertiaryFont  ">
+              <h3 className="md:mb-2 md:text-3xl text-2xl font-semibold">Infinity Gem</h3>
               <p className=" text-white cursor-pointer">UI/UX</p>
             </div>
           </Link>
@@ -69,8 +69,8 @@ const Works = () => {
               src="https://framerusercontent.com/images/WisIsy97GUDG2UDk2aEq1F6MUaY.jpg?scale-down-to=2048"
               alt=""
             />
-            <div className="absolute bottom-0 text-white p-10 font-tertiaryFont  ">
-              <h3 className="mb-2 text-3xl font-semibold">Wander</h3>
+            <div className="absolute bottom-0 text-white md:p-10 p-4 font-tertiaryFont ">
+              <h3 className="md:mb-2 md:text-3xl text-2xl font-semibold">Wander</h3>
               <p className=" text-white cursor-pointer">UI/UX,Branding</p>
             </div>
           </Link>
