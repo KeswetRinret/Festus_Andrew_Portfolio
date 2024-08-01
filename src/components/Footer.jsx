@@ -3,23 +3,23 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mx-32 mb-10">
-      <hr className="mt-12" />
-      <footer className="mt-16 flex">
-        <p className="w-[60%] text-xl font-tertiaryFont">
+    <div className="md:mx-32 mx-4 md:mb-10 mb-4">
+      <hr className="md:mt-12 mt-6" />
+      <footer className="md:mt-16 mt-8 flex">
+        <p className="md:w-[60%] md:text-xl md:font-tertiaryFont hidden md:block">
           © 2023 Templify by Patryk Moskot
         </p>
 
-        <div className=" w-[40%] flex justify-end ">
+        <div className="md:w-[40%] w-full flex md:justify-end justify-center">
           <a href="MyWork2">
-            <p className="font-primaryFont text-3xl  relative group">
+            <p className="font-primaryFont md:text-3xl text-2xl  relative group">
               Work
               <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
             </p>
           </a>
 
           <a href="MoreAbout">
-            <p className="text-3xl ml-8 font-primaryFont relative group">
+            <p className="md:text-3xl text-2xl ml-8 font-primaryFont relative group">
               About
               <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
             </p>

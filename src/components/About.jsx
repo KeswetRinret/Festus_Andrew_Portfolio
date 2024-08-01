@@ -12,7 +12,7 @@ const About = () => {
       <div className="flex md:flex-row-reverse flex-col justify-between mt-8">
       <div className="md:w-[40%] w-auto">
           <img
-            className="rounded-full md:size-auto size-60 ml-12"
+            className="rounded-full md:size-auto size-60 ml-14"
             src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
             alt=""
           />
@@ -32,12 +32,12 @@ const About = () => {
 
           <div className="flex md:flex-row flex-col items-center">
             <a href="moreAbout">
-              <button className=" border  rounded-full px-28 py-3 md:mt-6 mt-4 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
+              <button className=" border  rounded-full px-28 py-3 md:mt-6 mt-5 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
                 More about me
               </button>
             </a>
 
-            <div className="flex md:gap-8 gap-10 md:mt-4 mt-7 md:pl-14 ">
+            <div className="flex md:gap-8 gap-10 md:mt-4 mt-8 md:pl-14 ">
               <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
                 <span>
                   <svg

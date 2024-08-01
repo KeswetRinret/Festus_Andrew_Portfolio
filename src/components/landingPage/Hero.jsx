@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center w-full ">
-        <div className="md:mt-12 md:pl-64 md:w-[25%] hidden md:block">
+        <div className="md:mt-8 md:pl-52 md:w-[25%] hidden md:block">
           <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
             <span>
               <svg
@@ -70,16 +70,16 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="md:w-[75%] w-full mt-5 md:mt-10 ">
-          <p className="font-tertiaryFont md:ml-24 ml-12 md:mx-0 mx-3 md:text-6xl text-4xl font-semibold leading-tight">
+        <div className="md:w-[75%] w-full mt-5 md:mt-8 ">
+          <p className="font-tertiaryFont md:ml-16 ml-12 md:mx-0 mx-3 md:text-6xl text-4xl font-semibold leading-tight">
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
-          <p className="md:mt-7 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl md:ml-36 ml-14 ">
+          <p className="md:mt-6 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl md:ml-36 ml-14 ">
             I am a Designer based in Jos, Nigeria.
           </p>
 
-          <div href="contact" className="md:space-x-8 md:mt-8 mt-6 md:pl-24 md:mb-12 mb-10 space-x-4 md:ml-8 ml-8 mx-3 md:mx-0 ">
+          <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:pl-20 md:mb-12 mb-10 space-x-4 md:ml-8 ml-8 mx-3 md:mx-0 ">
             <button className="border rounded-full md:px-6 px-20 p-3 md:p-2.5 ml-3 font-bold md:text-lg  bg-primaryColor text-white hover:bg-hoverColor">
               <a href="#contact">Let's work together</a>
             </button>
