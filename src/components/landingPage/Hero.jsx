@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto my-6">
+    <div className="container mx-auto md:my-5 my-2">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <NavLink to={"/"}>
           <img
@@ -23,8 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center w-full ">
-        <div className="mt-12 pl-72 w-[25%] hidden md:block ">
-        <div className="mt-12 pl-44 w-[25%]">
+        <div className="md:mt-12 md:pl-64 md:w-[25%] hidden md:block">
           <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
             <span>
               <svg
@@ -71,22 +70,22 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="w-[75%] mt-10 ">
-          <p className="font-tertiaryFont ml-12 text-6xl font-semibold leading-tight">
+        <div className="md:w-[75%] w-full mt-5 md:mt-10 ">
+          <p className="font-tertiaryFont md:ml-24 ml-12 md:mx-0 mx-3 md:text-6xl text-4xl font-semibold leading-tight">
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
-          <p className="mt-6 font-tertiaryFont text-xl ml-20">
-            I am a Designer based in Jos, Nigeria
+          <p className="md:mt-7 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl md:ml-36 ml-10 ">
+            I am a Designer based in Jos, Nigeria.
           </p>
 
-          <div href="contact" className="space-x-6 mt-16 pl-12 ml-10">
-            <button className="border rounded-full px-4 p-2 font-bold text-lg bg-primaryColor text-white hover:bg-hoverColor">
+          <div href="contact" className="md:space-x-8 md:mt-8 mt-6 md:pl-24 md:mb-12 mb-10 space-x-4 md:ml-8 ml-8 mx-3 md:mx-0 ">
+            <button className="border rounded-full md:px-6 px-20 p-3 md:p-2.5 ml-3 font-bold md:text-lg  bg-primaryColor text-white hover:bg-hoverColor">
               <a href="#contact">Let's work together</a>
             </button>
 
             <Link to={"./MoreAbout"}>
-              <button className="border rounded-full px-4 p-2 font-bold text-lg bg-slate-100 hover:bg-slate-200">
+              <button className="border rounded-full mt-4 md:px-8 px-24 p-3 md:p-2.5 font-bold md:text-lg bg-slate-100 hover:bg-slate-200">
                 My Experience
               </button>
             </Link>
