@@ -79,7 +79,7 @@ const Hero = () => {
             I am a Designer based in Jos, Nigeria.
           </p>
 
-          <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:pl-20 md:mb-12 mb-10 md:ml-8 mx-3 md:mx-0 ">
+          <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:pl-16 md:mb-12 mb-10 md:ml-8 mx-3 md:mx-0 ">
             <button className="border rounded-full md:w-56 w-full p-3 md:p-2.5 font-bold md:text-lg  bg-primaryColor text-white hover:bg-hoverColor">
               <a href="#contact">Let's work together</a>
             </button>
