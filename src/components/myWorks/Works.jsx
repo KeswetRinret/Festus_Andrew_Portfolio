@@ -64,6 +64,7 @@ const Works = () => {
 
         <div className="relative overflow-hidden">
           <Link to={"./Wander"}>
+          
             <img
               className="w-[500px] h-64 md:h-[600px] object-cover rounded-2xl hover:scale-110 transition duration-500 cursor-pointer"
               src="https://framerusercontent.com/images/WisIsy97GUDG2UDk2aEq1F6MUaY.jpg?scale-down-to=2048"

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Wander = () => {
   return (
-    <div className=" mx-32 my-4">
+    <div className="md:mx-32 mx-auto max-w[90%] my-4">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <Link to={"/"}>
           <img

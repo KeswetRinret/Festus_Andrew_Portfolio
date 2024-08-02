@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto md:my-5 my-1">
+    <div className="container mx-auto max-w-[90%] md:my-5 my-1">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <NavLink to={"/"}>
           <img
@@ -71,21 +71,21 @@ const Hero = () => {
         </div>
 
         <div className="md:w-[75%] w-full mt-5 md:mt-8 ">
-          <p className="font-tertiaryFont md:ml-16 ml-12 md:mx-0 mx-3 md:text-6xl text-4xl font-semibold leading-tight">
+          <p className="font-tertiaryFont md:ml-16 ml-12 w-full md:mx-0 mx-3 md:text-6xl text-3xl font-semibold leading-tight">
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
-          <p className="md:mt-6 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl md:ml-36 ml-14 ">
+          <p className="md:mt-6 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl md:ml-32 ml-6 w-full  ">
             I am a Designer based in Jos, Nigeria.
           </p>
 
-          <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:pl-20 md:mb-12 mb-10 space-x-4 md:ml-8 ml-8 mx-3 md:mx-0 ">
-            <button className="border rounded-full md:px-6 px-20 p-3 md:p-2.5 ml-3 font-bold md:text-lg  bg-primaryColor text-white hover:bg-hoverColor">
+          <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:pl-20 md:mb-12 mb-10 md:ml-8 mx-3 md:mx-0 ">
+            <button className="border rounded-full md:w-56 w-full p-3 md:p-2.5 font-bold md:text-lg  bg-primaryColor text-white hover:bg-hoverColor">
               <a href="#contact">Let's work together</a>
             </button>
 
             <Link to={"./MoreAbout"}>
-              <button className="border rounded-full mt-4 md:px-8 px-24 p-3 md:p-2.5 font-bold md:text-lg bg-slate-100 hover:bg-slate-200">
+              <button className="border rounded-full mt-4  md:w-56 w-full p-3 md:p-2.5 font-bold md:text-lg bg-slate-100 hover:bg-slate-200">
                 My Experience
               </button>
             </Link>
