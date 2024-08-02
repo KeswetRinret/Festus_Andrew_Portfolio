@@ -22,16 +22,16 @@ const Infinity = () => {
         />
       </div>
 
-      <div className="mt-16">
+      <div className="md:mt-16 mt-12">
         <div className="">
-          <p className="mt-8 text-4xl font-secondaryFont font-semibold">E-Commerce</p>
+          <p className="mt-8 md:text-4xl text-3xl font-secondaryFont font-semibold">E-Commerce</p>
         </div>
-        <hr className="mt-6" />
+        <hr className="md:mt-6 mt-4" />
 
-        <div className="flex gap-20 mt-8">
-          <div className="w-[60%]">
+        <div className="flex md:gap-20 md:flex-row flex-col md:mt-8 mt-6">
+          <div className="md:w-[60%] w-full">
             <p className="text-3xl font-semibold font-secondaryFont">Intro</p>
-            <p className="text-xl mt-6 leading-8">
+            <p className="md:text-xl text-lg md:mt-6 mt-4 md:leading-8 leading-7">
               Infinity Gem is more than just a learning platform; it's a gateway
               to limitless opportunities in the tech world. With a comprehensive
               library of courses, interactive resources, and real-world
@@ -43,15 +43,15 @@ const Infinity = () => {
               opportunities and stay ahead in an ever-evolving industry.
             </p>
           </div>
-          <div className="w-[40%] space-y-20 ">
+          <div className="md:w-[40%] w-full md:space-y-20 space-y-8 ml-1">
             <div>
-              <p className="text-3xl font-semibold font-secondaryFont ">Year</p>
-              <p className="mt-6 font-medium">2023</p>
+              <p className="md:text-3xl text-2xl font-semibold font-secondaryFont mt-6">Year</p>
+              <p className="md:mt-6 mt-2 font-medium">2023</p>
               <hr className="mt-2" />
             </div>
 
             <div>
-              <p className="text-3xl font-semibold font-secondaryFont ">
+              <p className="md:text-3xl text-2xl font-semibold font-secondaryFont ">
                 Services
               </p>
               <p className="mt-2">UI/UX</p>
@@ -59,7 +59,7 @@ const Infinity = () => {
             </div>
 
             <div>
-              <p className="text-3xl font-semibold font-secondaryFont ">
+              <p className="md:text-3xl text-2xl font-semibold font-secondaryFont ">
                 Client
               </p>
               <p className="mt-2">Bluehouse Technologies</p>
@@ -69,14 +69,14 @@ const Infinity = () => {
         </div>
       </div>
 
-      <div className="mt-16">
-        <p className="mt-8 text-4xl font-secondaryFont font-semibold ">
+      <div className="md:mt-16 mt-12">
+        <p className="md:mt-8 md:text-5xl text-3xl font-secondaryFont font-semibold ">
           Process
         </p>
 
-        <hr className="mt-6" />
+        <hr className="md:mt-6 mt-4" />
 
-        <p className="text-xl mt-8 leading-8 ">
+        <p className="md:text-xl text-lg md:mt-8 mt-6 md:leading-8 leading-7 ">
           The design process for creating Infinity Gem, an EdTech solution for
           tech skills learning in native languages, involves thorough research
           and analysis of the target audience and competitors. Goals and
@@ -88,7 +88,7 @@ const Infinity = () => {
           through regular updates and user feedback.
         </p>
       </div>
-      <div className="flex items-center justify-center mt-16">
+      <div className="flex items-center justify-center md:mt-16 mt-8">
         <img
           className="object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/OFbK57XQRHPx3cE38yULCCAK22M.jpg?scale-down-to=2048"
@@ -96,7 +96,7 @@ const Infinity = () => {
         />
       </div>
 
-      <div className="flex items-center justify-center mt-16">
+      <div className="flex items-center justify-center md:mt-16 mt-8">
         <img
           className=" object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/E0jcpDZPmuTQmniOHF4kbXl3150.jpg?scale-down-to=2048"
@@ -104,10 +104,10 @@ const Infinity = () => {
         />
       </div>
 
-      <div className="mt-16">
-        <p className="mt-8 text-4xl font-tertiaryFont font-semibold ">Goal</p>
-        <hr className="mt-8" />
-        <p className="text-xl mt-8 font-secondaryFont leading-8 ">
+      <div className="md:mt-16 mt-12">
+        <p className="mt-8 md:text-5xl text-3xl font-tertiaryFont font-semibold ">Goal</p>
+        <hr className="md:mt-8 mt-4" />
+        <p className="md:text-xl text-lg md:mt-8 mt-6 md:leading-8 leading-7 ">
           The goals of Infinity Gem, an EdTech solution for tech skills learning
           in native languages, are to provide accessible and effective education
           in users' native languages, foster a supportive learning community,
@@ -119,7 +119,7 @@ const Infinity = () => {
           user feedback and emerging industry trends.
         </p>
 
-        <div className="flex items-center justify-center mt-16">
+        <div className="flex items-center justify-center md:mt-16 mt-8">
           <img
             className=" object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
             src="https://framerusercontent.com/images/86NWi8YPHzJzGYMBas38TMEbA.jpg?scale-down-to=2048"
@@ -127,20 +127,20 @@ const Infinity = () => {
           />
         </div>
 
-        <div className="flex items-center justify-center mt-16">
+        <div className="flex items-center justify-center md:mt-16 mt-8">
           <img
-            className=" object-cover h-[600px] w-dvw rounded-xl "
+            className=" object-cover h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
             src="https://framerusercontent.com/images/UMX9BcVLmN4nyEMeGXkiDrbtZIo.jpg?scale-down-to=2048"
             alt="Infinity Gem"
           />
         </div>
 
-        <div className=" mt-16">
-          <p className="mt-8 text-4xl font-tertiaryFont font-semibold ">
+        <div className=" md:mt-16 mt-12">
+          <p className="mt-8 md:text-5xl text-3xl font-tertiaryFont font-semibold ">
             Result
           </p>
-          <hr className="mt-8" />
-          <p className="text-xl mt-8 font-secondaryFont leading-8 ">
+          <hr className="md:mt-8 mt-4" />
+          <p className="md:text-xl text-lg md:mt-8 mt-6 font-secondaryFont md:leading-8 leading-7">
             The "Result" design process is an outcome-driven methodology,
             starting with a clear definition of desired results and benchmarks
             which includes users mastering tech skills in their native
@@ -154,57 +154,60 @@ const Infinity = () => {
       </div>
 
     
-      <div className="mt-16">
-        <p className="text-4xl font-tertiaryFont font-semibold">Contact</p>
-      </div>
-      <hr className="mt-10" />
+      
 
-      <div className="">
-        <div className="mt-12 flex">
-          <p className="w-1/2 text-8xl space-y-8">
-            Let's <br /> work <br /> together
-          </p>
+      <div className="md:mt-16 mt-12 ">
+        <div href="contact">
+          <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">Contact</p>
+        </div>
+        <hr className="md:mt-10 mt-6" />
 
-          <p className="w-1/2 text-xl font-secondaryFont leading-8">
-            I'm very happy to tackle new challenges and dive into the most
-            innovative projects. If you are looking for a dedicated and
-            enthusiastic designer to enhance your vision, this is where it will
-            end. We'll work together to develop unique experiences that will be
-            remembered forever. Contact me, and let's go on an exciting journey
-            together to meet your objectives!
-            <div className=" mt-10 text-3xl font-tertiaryFont font-semibold relative group">
-              <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full group-hover:transition-all group-hover:duration-200"></span>
-              hello@mail.com
-            </div>
-          </p>
+        <div className="">
+          <div className="md:mt-12 mt-7 flex md:flex-row flex-col">
+            <p className="w-1/2 md:text-8xl text-5xl md:space-y-8">
+              Let's <br /> work <br /> together
+            </p>
+
+            <p className="md:w-1/2 w-full font-secondaryFont md:text-xl text-lg md:leading-8 leading-7 mt-4">
+              I'm very happy to tackle new challenges and dive into the most
+              innovative projects. If you are looking for a dedicated and
+              enthusiastic designer to enhance your vision, this is where it
+              will end. We'll work together to develop unique experiences that
+              will be remembered forever. Contact me, and let's go on an
+              exciting journey together to meet your objectives!
+              <div className="md:mt-10 mt-4 md:text-3xl text-2xl font-tertiaryFont font-semibold relative group">
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+                festusandrew23@gmail.com
+              </div>
+            </p>
+          </div>
         </div>
       </div>
-
-       <hr className="mt-12" />
-      <footer className="mt-16 flex">
-        <p className="w-[60%] text-xl font-tertiaryFont">
+        <div className='md:mb-10 mb-4'>
+       <hr className="md:mt-12 mt-6" />
+      <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
+      <p className="md:w-[60%] text-xl md:font-tertiaryFont md:mt-5 md:mr-20 flex justify-center">
           © 2023 Templify by Patryk Moskot
         </p>
 
-        <div className=" w-[40%] flex justify-end ">
-            <Link to={"./Works"}>
-          <p className="font-primaryFont text-3xl  relative group">
-            Work
-            <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
-          </p>
-          </Link>
+        <div className="md:w-[40%] w-full flex md:justify-end justify-center mt-6">
+          <a href="MyWork2">
+            <p className="font-primaryFont md:text-3xl text-2xl  relative group">
+              Work
+              <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+            </p>
+          </a>
 
-          <Link to={"./"}>
-          <p className="text-3xl ml-8 font-primaryFont relative group">
-            
-            About
-            <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
-          </p>
-          </Link>
+          <a href="MoreAbout">
+            <p className="md:text-3xl text-2xl ml-8 font-primaryFont relative group">
+              About
+              <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+            </p>
+          </a>
         </div>
 
       </footer>
-
+    </div>
     </div>
   );
 };

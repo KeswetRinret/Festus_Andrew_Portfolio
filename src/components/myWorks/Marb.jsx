@@ -49,13 +49,13 @@ const Marb = () => {
           </div>
           <div className="md:w-[40%] md:space-y-20 space-y-8 mt-6 ml-1 ">
             <div>
-              <p className="text-2xl font-semibold font-secondaryFont ">Year</p>
+              <p className="md:text-3xl text-2xl font-semibold font-secondaryFont ">Year</p>
               <p className="md:mt-6 mt-2 font-medium">2024</p>
               <hr className="mt-2" />
             </div>
 
             <div>
-              <p className="text-2xl font-semibold font-secondaryFont ">
+              <p className="md:text-3xl text-2xl font-semibold font-secondaryFont ">
                 Services
               </p>
               <p className="mt-2">UI/UX, Branding</p>
@@ -63,7 +63,7 @@ const Marb = () => {
             </div>
 
             <div>
-              <p className="text-2xl font-semibold font-secondaryFont ">
+              <p className="md:text-3xl text-2xl font-semibold font-secondaryFont ">
                 Client
               </p>
               <p className="mt-2">Marb-Store</p>
