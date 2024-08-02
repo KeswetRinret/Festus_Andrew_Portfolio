@@ -198,7 +198,7 @@ const ProClub = () => {
           © 2023 Templify by Patryk Moskot
         </p>
 
-        <div className="md:w-[40%] w-full flex md:justify-end justify-center mt-5">
+        <div className="md:w-[40%] w-full flex md:justify-end justify-center mt-6">
           <a href="MyWork2">
             <p className="font-primaryFont md:text-3xl text-2xl  relative group">
               Work
