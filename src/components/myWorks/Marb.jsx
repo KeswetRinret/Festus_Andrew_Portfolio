@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Laptop from "../../assets/images/Laptop.jpg";
-import Contact from "../Contact";
-import Footer from "../Footer";
+
 
 const Marb = () => {
   return (
-    <div className="md:mx-32 mx-4 md:my-4">
+    <div className="md:mx-32 mx-4 md:my-4 my-1">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <Link to={"/"}>
           <img
@@ -28,7 +26,7 @@ const Marb = () => {
 
       <div className="md:mt-16 mt-12">
         <div className="">
-          <p className="font-semibold md:text-4xl text-2xl font-tetiaryFont">E-Commerce</p>
+          <p className="font-semibold md:text-4xl text-3xl font-tetiaryFont">E-Commerce</p>
         </div>
         <hr className="md:mt-6 mt-4" />
 

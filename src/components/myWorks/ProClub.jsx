@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Laptop from "../../assets/images/Laptop.jpg";
-import Contact from "../Contact";
-import Footer from "../Footer";
+
 
 const ProClub = () => {
   return (
-    <div className=" mx-32 my-4">
+    <div className="md:mx-32 mx-4 md:my-4 my-1">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <Link to={"/"}>
           <img
@@ -19,22 +17,22 @@ const ProClub = () => {
 
       <div className="flex items-center justify-center mt-8">
         <img
-          className="object-cover h-[600px] w-dvw rounded-xl "
+          className="object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/kYjjTQZX4yro1jpWWY7stCFLY.jpg"
           alt="ProDevelopers Club"
         />
       </div>
 
-      <div className="mt-16">
+      <div className="md:mt-16 mt-12">
         <div className="">
-          <p className="font-semibold text-4xl font-tetiaryFont">EdTech Solution</p>
+          <p className="font-semibold md:text-4xl text-3xl font-tetiaryFont">EdTech Solution</p>
         </div>
-        <hr className="mt-6" />
+        <hr className="md:mt-6 mt-4" />
 
-        <div className="flex gap-20 mt-8">
-          <div className="w-[60%]">
+        <div className="flex md:flex-row flex-col gap-20 md:mt-8 mt-6">
+          <div className="md:w-[60%] w-full">
             <p className="text-2xl font-semibold font-secondaryFont">Intro</p>
-            <p className="text-xl mt-6 leading-8">
+            <p className="md:text-xl text-lg md:mt-6 mt-4 md:leading-8 leading-7">
               The "ProDevelopersClub" design project harmoniously blends modern
               aesthetics and functionality, we believe that coding can be both
               powerful and beautiful. At ProDevelopersClub, our mission is to
@@ -48,10 +46,10 @@ const ProClub = () => {
               Let's write the code that shapes the future, together!
             </p>
           </div>
-          <div className="w-[40%] space-y-20 ">
+          <div className="md:w-[40%] w-full md:space-y-20 space-y-8 ml-1">
             <div>
               <p className="text-2xl font-semibold font-secondaryFont ">Year</p>
-              <p className="mt-6 font-medium">2024</p>
+              <p className="md:mt-6 mt-4 font-medium">2024</p>
               <hr className="mt-2" />
             </div>
 
@@ -75,13 +73,13 @@ const ProClub = () => {
       </div>
 
       <div className="mt-16">
-        <p className="mt-8 text-5xl font-tertiaryFont font-semibold ">
+        <p className="md:mt-8 md:text-5xl text-3xl font-tertiaryFont font-semibold ">
           Process
         </p>
 
-        <hr className="mt-6" />
+        <hr className="md:mt-6 mt-4" />
 
-        <p className="text-xl mt-8 leading-8 ">
+        <p className="md:text-xl text-lg md:mt-8 mt-6 md:leading-8 leading-7">
           The design process for creating ProDevelopersClub, a platform to learn
           coding, begins with thorough research and analysis of the target
           audience and competitors. Goals and objectives are defined to guide
@@ -96,26 +94,26 @@ const ProClub = () => {
           resource for developers to enhance their coding skills effectively.
         </p>
       </div>
-      <div className="flex items-center justify-center mt-16">
+      <div className="flex items-center justify-center  md:mt-16 mt-8">
         <img
-          className="object-cover h-[600px] w-dvw rounded-xl "
+          className="object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/cofLlvrdf71d7i5raChitGnKzB0.jpg?scale-down-to=2048"
           alt="Marb Store"
         />
       </div>
 
-      <div className="flex items-center justify-center mt-16">
+      <div className="flex items-center justify-center  md:mt-16 mt-8">
         <img
-          className=" object-cover h-[600px] w-dvw rounded-xl "
+          className=" object-cover h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/HWOyPZyYgpYyXrgSHgCYnWlPkDE.jpg?scale-down-to=2048"
           alt="Marb Store"
         />
       </div>
 
-      <div className="mt-16">
-        <p className="mt-8 text-5xl font-tertiaryFont font-semibold ">Goal</p>
-        <hr className="mt-8" />
-        <p className="text-xl mt-8 leading-8 ">
+      <div className="md:mt-16 mt-12">
+        <p className="md:mt-8 md:text-5xl text-3xl font-tertiaryFont font-semibold ">Goal</p>
+        <hr className="md:mt-8 mt-4" />
+        <p className="md:text-xl text-lg md:mt-8 mt-6 md:leading-8 leading-7 ">
           The goal of designing ProDevelopersClub is to create a comprehensive
           and engaging platform that empowers developers to learn and master
           coding effectively. This platform should offer high-quality
@@ -127,28 +125,28 @@ const ProClub = () => {
           technologies
         </p>
 
-        <div className="flex items-center justify-center mt-16">
+        <div className="flex items-center justify-center  md:mt-16 mt-8">
           <img
-            className=" object-cover h-[600px] w-dvw rounded-xl "
+            className=" object-cover h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
             src="https://framerusercontent.com/images/fTg6HPQuBTwO09wrMQ9ODz9vxR8.jpg?scale-down-to=2048"
             alt="Marb Store"
           />
         </div>
 
-        <div className="flex items-center justify-center mt-16">
+        <div className="flex items-center justify-center  md:mt-16 mt-8">
           <img
-            className=" object-cover h-[700px] w-dvw rounded-xl "
+            className=" object-cover h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
             src="https://framerusercontent.com/images/h27v9biikjvGJGeyQEeG4fhDgc.jpg?scale-down-to=2048"
             alt="Marb Store"
           />
         </div>
 
-        <div className=" mt-16">
-          <p className="mt-8 text-5xl font-tertiaryFont font-semibold ">
+        <div className="md:mt-16 mt-12">
+          <p className="md:mt-8 md:text-5xl text-3xl font-tertiaryFont font-semibold ">
             Result
           </p>
-          <hr className="mt-8" />
-          <p className="text-xl mt-8 leading-8 ">
+          <hr className="md:mt-8 mt-4" />
+          <p className="md:text-xl text-lg md:mt-8 mt-6 md:leading-8 leading-7 ">
             The result of designing ProDevelopersClub is a dynamic and
             user-centric platform that revolutionizes the way developers learn
             and master coding. With a comprehensive library of high-quality
@@ -166,19 +164,19 @@ const ProClub = () => {
         </div>
       </div>
 
-      <div className="mt-16">{Contact}</div>
+      <div className="md:mt-16 mt-12"></div>
       <div>
-        <p className="text-5xl font-tertiaryFont font-semibold">Contact</p>
+        <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">Contact</p>
       </div>
-      <hr className="mt-10" />
+      <hr className="md:mt-10 mt-6" />
 
       <div className="">
-        <div className="mt-12 flex">
-          <p className="w-1/2 text-8xl space-y-8">
+        <div className="md:mt-12 mt-6 flex md:flex-row flex-col">
+          <p className="md:w-1/2 w-full md:text-8xl text-5xl md:space-y-8">
             Let's <br /> work <br /> together
           </p>
 
-          <p className="w-1/2 text-xl leading-8">
+          <p className="md:w-1/2 w-full md:text-xl text-lg md:leading-8 leading-7 mt-4">
             I'm very happy to tackle new challenges and dive into the most
             innovative projects. If you are looking for a dedicated and
             enthusiastic designer to enhance your vision, this is where it will
@@ -193,28 +191,27 @@ const ProClub = () => {
         </div>
       </div>
 
-      <div className='mb-10'>
-       <hr className="mt-12" />
-      <footer className="mt-16 flex">
-        <p className="w-[60%] text-xl font-tertiaryFont">
+      <div className='md:mb-10 mb-4'>
+       <hr className="md:mt-12 mt-6" />
+      <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
+      <p className="md:w-[60%] text-xl md:font-tertiaryFont flex justify-center">
           © 2023 Templify by Patryk Moskot
         </p>
 
-        <div className=" w-[40%] flex justify-end ">
-            <Link to={"./Works"}>
-          <p className="font-primaryFont text-3xl  relative group">
-            Work
-            <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
-          </p>
-          </Link>
+        <div className="md:w-[40%] w-full flex md:justify-end justify-center mt-5">
+          <a href="MyWork2">
+            <p className="font-primaryFont md:text-3xl text-2xl  relative group">
+              Work
+              <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+            </p>
+          </a>
 
-          <Link to={"./About"}>
-          <p className="text-3xl ml-8 font-primaryFont relative group">
-            
-            About
-            <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
-          </p>
-          </Link>
+          <a href="MoreAbout">
+            <p className="md:text-3xl text-2xl ml-8 font-primaryFont relative group">
+              About
+              <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+            </p>
+          </a>
         </div>
 
       </footer>
