@@ -194,7 +194,7 @@ const Marb = () => {
         <div className='md:mb-10 mb-4'>
        <hr className="md:mt-12 mt-6" />
       <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
-      <p className="md:w-[60%] text-xl md:font-tertiaryFont flex justify-center">
+      <p className="md:w-[60%] text-xl md:font-tertiaryFont md:mt-5 md:mr-20 flex justify-center">
           © 2023 Templify by Patryk Moskot
         </p>
 

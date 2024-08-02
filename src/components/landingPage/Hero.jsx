@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto md:my-5">
+    <div className="container mx-auto md:my-5 my-1">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <NavLink to={"/"}>
           <img

@@ -183,7 +183,7 @@ const ProClub = () => {
             end. We'll work together to develop unique experiences that will be
             remembered forever. Contact me, and let's go on an exciting journey
             together to meet your objectives!
-            <div className=" mt-10 text-3xl font-tertiaryFont font-semibold relative group">
+            <div className="md:mt-10 mt-8 flex justify-center text-3xl font-tertiaryFont font-semibold relative group">
               <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-black group-hover:w-full group-hover:transition-all group-hover:duration-200"></span>
               hello@mail.com
             </div>

@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Laptop from "../../assets/images/Laptop.jpg";
-import Contact from "../Contact";
-import Footer from "../Footer";
 
 const Infinity = () => {
   return (
-    <div className=" mx-32 my-4">
+    <div className="md:mx-32 mx-4 md:my-4 my-1">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <Link to={"/"}>
           <img
@@ -19,7 +16,7 @@ const Infinity = () => {
 
       <div className="flex items-center justify-center mt-8">
         <img
-          className="object-cover h-[600px] w-dvw rounded-xl "
+          className="object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/DjmKQYQKRd2h0Q1wAkfkOGHIYw.jpg"
           alt="Infinity Gem"
         />
@@ -93,7 +90,7 @@ const Infinity = () => {
       </div>
       <div className="flex items-center justify-center mt-16">
         <img
-          className="object-cover h-[600px] w-dvw rounded-xl "
+          className="object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/OFbK57XQRHPx3cE38yULCCAK22M.jpg?scale-down-to=2048"
           alt="Marb Store"
         />
@@ -101,7 +98,7 @@ const Infinity = () => {
 
       <div className="flex items-center justify-center mt-16">
         <img
-          className=" object-cover h-[600px] w-dvw rounded-xl "
+          className=" object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
           src="https://framerusercontent.com/images/E0jcpDZPmuTQmniOHF4kbXl3150.jpg?scale-down-to=2048"
           alt="Marb Store"
         />
@@ -124,7 +121,7 @@ const Infinity = () => {
 
         <div className="flex items-center justify-center mt-16">
           <img
-            className=" object-cover h-[600px] w-dvw rounded-xl "
+            className=" object-cover  h-64 md:h-[600px] md:w-dvw w-full rounded-xl "
             src="https://framerusercontent.com/images/86NWi8YPHzJzGYMBas38TMEbA.jpg?scale-down-to=2048"
             alt="Marb Store"
           />
