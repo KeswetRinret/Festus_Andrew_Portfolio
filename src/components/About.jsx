@@ -32,7 +32,7 @@ const About = () => {
 
           <div className="flex md:flex-row flex-col items-center">
             <a href="moreAbout">
-              <button className=" border rounded-full w-full p-3 md:px-8 px-28 md:mt-6 mt-5 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
+              <button className=" border rounded-full w-full md:p-3 p-2 md:px-8 px-28 md:mt-6 mt-5 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
                 More about me
               </button>
             </a>
