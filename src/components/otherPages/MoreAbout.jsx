@@ -163,7 +163,7 @@ const About = () => {
           </div>
           <hr className="md:mx-0 mx-3" />
 
-          <div className="flex md:space-x-4 space-x-2">
+          <div className="flex md:space-x-6 space-x-3">
             <div className="md:text-8xl text-5xl flex items-center font-secondaryFont">
               1
             </div>
@@ -179,7 +179,7 @@ const About = () => {
           </div>
           <hr />
 
-          <div className="flex md:space-x-4 space-x-2">
+          <div className="flex md:space-x-6 space-x-3">
             <div className="md:text-8xl text-5xl flex items-center ">2</div>
             <div className="">
               <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">Design</p>
@@ -190,7 +190,7 @@ const About = () => {
             </div>
           </div>
           <hr />
-          <div className="flex space-x-6">
+          <div className="flex md:space-x-6 space-x-3">
             <div className="md:text-8xl text-5xl flex items-center">3</div>
             <div className="">
               <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
