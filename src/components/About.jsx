@@ -31,7 +31,7 @@ const About = () => {
           </p>
 
           <div className="flex md:flex-row flex-col items-center">
-            <a href="moreAbout">
+            <a href="MoreAbout">
               <button className=" border rounded-full w-full p-3 md:px-8 px-24 md:mt-6 mt-5 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
                 More about me
               </button>

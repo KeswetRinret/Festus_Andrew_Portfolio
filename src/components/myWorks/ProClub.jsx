@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ProClub = () => {
   return (
-    <div className="md:mx-32 mx-4 md:my-4 my-1">
+    <div className="md:mx-32 mx-4 md:my-4 my-2">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <Link to={"/"}>
           <img
