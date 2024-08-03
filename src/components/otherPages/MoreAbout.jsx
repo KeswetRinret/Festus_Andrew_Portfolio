@@ -4,7 +4,7 @@ import bluehouselogo from "../../assets/images/bluehouselogo.png";
 
 const About = () => {
   return (
-    <section id="MoreAbout">
+    <section>
       <div className="md:mx-32 mx-4 md:my-6 my-2">
         <div className="w-full flex flex-col justify-center items-center space-y-2">
           <NavLink to={"/"}>
