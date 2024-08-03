@@ -1,14 +1,11 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { BsTwitterX } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io5";
 import bluehouselogo from "../../assets/images/bluehouselogo.png";
 
 const About = () => {
   return (
     <section id="moreAbout">
-      <div className="mx-32 mt-6">
+      <div className="md:mx-32 mx-4 md:my-6 my-2">
         <div className="w-full flex flex-col justify-center items-center space-y-2">
           <NavLink to={"/"}>
             <img
@@ -19,20 +16,20 @@ const About = () => {
           </NavLink>
         </div>
         <div>
-          <p className="text-5xl font-tertiaryFont font-semibold">About me</p>
+          <p className="md:text-5xl text-3xl mt-8 font-tertiaryFont font-semibold">About me</p>
         </div>
-        <hr className="mt-10" />
+        <hr className="md:mt-8 mt-4" />
 
-        <div className="flex justify-between mt-8">
-          <div className="w-[50%]">
+        <div className="flex md:flex-row flex-col justify-between md:mt-8 mt-4">
+          <div className="md:w-[50%] w-full">
             <img
-              className="rounded-full "
+              className="rounded-full md:size-auto size-60 ml-12 "
               src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
               alt=""
             />
           </div>
-          <div className="w-[50%]">
-            <p className="text-xl mt-6 font-secondaryFont leading-7 space-y-2 ">
+          <div className="md:w-[50%] w-full">
+            <p className="md:text-xl text-lg md:mt-6 mt-4 font-secondaryFont leading-7 space-y-2 ">
               Hello! I'm Festus Andrew, a passionate product designer with
               Bluehouse Technologies. With over four years of experience in the
               field, I've had the privilege to delve into various facets of
@@ -43,12 +40,8 @@ const About = () => {
               them toward achieving their full potential has been one of the
               most rewarding aspects of my career.
             </p>
-            <div className="flex items-center">
-              {/* <button className=" border  rounded-full px-6 py-3 mt-6 font-tertiaryFont bg-gray-200 hover:bg-gray-300">
-              More about me
-            </button> */}
-
-              <div className="flex gap-8 mt-8 p">
+            <div className="">
+              <div className="flex justify-center md:gap-8 gap-10 md:mt-8 mt-8">
                 <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
                   <span>
                     <svg
@@ -99,26 +92,26 @@ const About = () => {
         </div>
 
         <div></div>
-        <div className="mt-16">
-          <p className="text-5xl font-tertiaryFont font-semibold">
+        <div className="md:mt-20 mt-14">
+          <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">
             My Experience
           </p>
         </div>
-        <hr className="mt-10 " />
+        <hr className="md:mt-8 mt-4" />
 
-        <div className="  flex mt-6">
+        <div className="flex md:mt-6 mt-2">
           <div className="">
             <img src={bluehouselogo} alt="" className="w-32 h-32" />
           </div>
 
-          <div className="mt-6">
-            <p className="text-4xl font-semibold">Bluehouse</p>
+          <div className="md:mt-6 mt-5">
+            <p className="md:text-4xl text-2xl font-semibold">Bluehouse</p>
 
-            <p className="text-2xl mt-2">Design Lead</p>
+            <p className="md:text-2xl text-xl md:mt-2 mt-1">Design Lead</p>
           </div>
         </div>
-        <div className="mt-8">
-          <p className="text-xl font-secondaryFont mt-8 leading-8 space-y-2">
+        <div className="md:mt-8 mt-0">
+          <p className="md:text-xl text-lg font-secondaryFont md:mt-2 mt-0 md:leading-8 leading-7">
             My role involves undertaking extensive research and user testing,
             engaging in ideation, and developing wireframes. I'm dedicated to
             crafting refined, high-fidelity user experiences and interfaces for
@@ -128,15 +121,15 @@ const About = () => {
             are not only data-driven but also deeply human-centric.
           </p>
         </div>
-        <hr className="mt-8" />
+        <hr className="md:mt-8 mt-6" />
 
-        <div className="mt-10">
-          <div className="ml-8">
-            <p className="text-4xl font-semibold">Zeustek Solutions</p>
-            <p className="text-2xl mt-4"> Freelance Product Designer</p>
+        <div className="md:mt-10 mt-6">
+          <div className="md:ml-8 ml-2">
+            <p className="md:text-4xl text-2xl font-semibold">Zeustek Solutions</p>
+            <p className="md:text-2xl text-xl md:mt-4 mt-2"> Freelance Product Designer</p>
           </div>
           <div>
-            <p className="text-xl font-secondaryFont mt-8 leading-8 space-y-2">
+            <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
               I specialize in designing clear, efficient UI/UX-driven interfaces
               for web and mobile platforms, committed to delivering superior
               quality outcomes. My responsibilities extend to overseeing design
@@ -147,15 +140,15 @@ const About = () => {
             </p>
           </div>
         </div>
-        <hr className="mt-8" />
+        <hr className="md:mt-8 mt-6" />
 
-        <div className="mt-10">
-          <div className="ml-8">
-            <p className="text-4xl font-semibold">Genesys Hub</p>
-            <p className="text-2xl mt-4">Upskill Product Designer</p>
+        <div className="md:mt-10 mt-6">
+          <div className="md:ml-8 ml-2">
+            <p className="md:text-4xl text-2xl font-semibold">Genesys Hub</p>
+            <p className="md:text-2xl text-xl md:mt-4 mt-2">Upskill Product Designer</p>
           </div>
           <div>
-            <p className="text-xl font-secondaryFont mt-8 leading-8 space-y-2">
+            <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
               I am involved in crafting the visual design and developing
               prototypes for mobile and web applications. My work entails a
               collaborative effort with the design team, stakeholders, product
@@ -164,21 +157,21 @@ const About = () => {
           </div>
         </div>
 
-        <div className="mt-20 space-y-12">
+        <div className="md:mt-20 mt-12 md:space-y-12 space-y-8">
           <div className="">
-            <p className="font-tertiaryFont text-5xl font-semibold">Services</p>
+            <p className="font-tertiaryFont md:text-5xl text-3xl font-semibold">Services</p>
           </div>
-          <hr className="" />
+          <hr className="md:mx-0 mx-3" />
 
-          <div className="flex space-x-2">
-            <div className="text-8xl flex items-center font-secondaryFont">
+          <div className="flex md:space-x-4 space-x-2">
+            <div className="md:text-8xl text-5xl flex items-center font-secondaryFont">
               1
             </div>
             <div className="">
-              <p className="text-3xl font-secondaryFont font-semibold">
+              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
                 Branding
               </p>
-              <p className="font-secondaryFont text-lg mt-4">
+              <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
                 Revealing your brand's core with a meticulous mix of visuals and
                 strategy. Crafting enduring identities that resonate.
               </p>
@@ -186,11 +179,11 @@ const About = () => {
           </div>
           <hr />
 
-          <div className="flex space-x-6">
-            <div className="text-8xl flex items-center ">2</div>
+          <div className="flex md:space-x-4 space-x-2">
+            <div className="md:text-8xl text-5xl flex items-center ">2</div>
             <div className="">
-              <p className="text-3xl font-tertiaryFont font-semibold">Design</p>
-              <p className="font-secondaryFont text-lg mt-4">
+              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">Design</p>
+              <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
                 Crafting engaging experiences from the initial click. Creating
                 intuitive interfaces for seamless user interactions.
               </p>
@@ -198,12 +191,12 @@ const About = () => {
           </div>
           <hr />
           <div className="flex space-x-6">
-            <div className="text-8xl flex items-center">3</div>
+            <div className="md:text-8xl text-5xl flex items-center">3</div>
             <div className="">
-              <p className="text-3xl font-tertiaryFont font-semibold">
+              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
                 Development
               </p>
-              <p className="font-secondaryFont text-lg mt-4">
+              <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
                 Transforming visions into dynamic digital realities. From
                 responsive websites to interactive apps, propelling innovation.
               </p>
