@@ -188,7 +188,7 @@ const Wander = () => {
        <hr className="md:mt-12 mt-6" />
       <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
       <p className="md:w-[60%] text-xl md:font-tertiaryFont md:mt-5 md:mr-20 flex justify-center">
-          © 2023 Templify by Patryk Moskot
+      © 2024 Festus Andrew
         </p>
 
         <div className="md:w-[40%] w-full flex md:justify-end justify-center mt-6">

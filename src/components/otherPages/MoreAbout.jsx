@@ -16,7 +16,9 @@ const About = () => {
           </NavLink>
         </div>
         <div>
-          <p className="md:text-5xl text-3xl mt-8 font-tertiaryFont font-semibold">About me</p>
+          <p className="md:text-5xl text-3xl mt-8 font-tertiaryFont font-semibold">
+            About me
+          </p>
         </div>
         <hr className="md:mt-8 mt-4" />
 
@@ -125,8 +127,13 @@ const About = () => {
 
         <div className="md:mt-10 mt-6">
           <div className="md:ml-8 ml-2">
-            <p className="md:text-4xl text-2xl font-semibold">Zeustek Solutions</p>
-            <p className="md:text-2xl text-xl md:mt-4 mt-2"> Freelance Product Designer</p>
+            <p className="md:text-4xl text-2xl font-semibold">
+              Zeustek Solutions
+            </p>
+            <p className="md:text-2xl text-xl md:mt-4 mt-2">
+              {" "}
+              Freelance Product Designer
+            </p>
           </div>
           <div>
             <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
@@ -145,7 +152,9 @@ const About = () => {
         <div className="md:mt-10 mt-6">
           <div className="md:ml-8 ml-2">
             <p className="md:text-4xl text-2xl font-semibold">Genesys Hub</p>
-            <p className="md:text-2xl text-xl md:mt-4 mt-2">Upskill Product Designer</p>
+            <p className="md:text-2xl text-xl md:mt-4 mt-2">
+              Upskill Product Designer
+            </p>
           </div>
           <div>
             <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
@@ -159,7 +168,9 @@ const About = () => {
 
         <div className="md:mt-20 mt-12 md:space-y-12 space-y-8">
           <div className="">
-            <p className="font-tertiaryFont md:text-5xl text-3xl font-semibold">Services</p>
+            <p className="font-tertiaryFont md:text-5xl text-3xl font-semibold">
+              Services
+            </p>
           </div>
           <hr className="md:mx-0 mx-3" />
 
@@ -182,7 +193,9 @@ const About = () => {
           <div className="flex md:space-x-6 space-x-3">
             <div className="md:text-8xl text-5xl flex items-center ">2</div>
             <div className="">
-              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">Design</p>
+              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
+                Design
+              </p>
               <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
                 Crafting engaging experiences from the initial click. Creating
                 intuitive interfaces for seamless user interactions.
@@ -204,60 +217,62 @@ const About = () => {
           </div>
         </div>
 
-        <div className="mt-20 mb-6 h-fit ">
-          <div href="contact">
-            <p className="text-5xl font-tertiaryFont font-semibold">Contact</p>
-          </div>
-          <hr className="mt-10" />
-
-          <div className="">
-            <div className="mt-12 flex">
-              <p className="w-1/2 text-8xl space-y-8">
-                Let's <br /> work <br /> together
-              </p>
-
-              <p className="w-1/2 font-secondaryFont text-xl leading-10">
-                I'm very happy to tackle new challenges and dive into the most
-                innovative projects. If you are looking for a dedicated and
-                enthusiastic designer to enhance your vision, this is where it
-                will end. We'll work together to develop unique experiences that
-                will be remembered forever. Contact me, and let's go on an
-                exciting journey together to meet your objectives!
-                <div className="md:mt-10 mt-4 md:text-3xl text-xl w-full ml-4 font-tertiaryFont font-semibold relative group">
-                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
-                festusandrew23@gmail.com
-              </div>
+        <section id="contact">
+          <div className="md:mt-20 mt-14 mb-6 h-fit ">
+            <div href="contact">
+              <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">
+                Contact
               </p>
             </div>
-          </div>
-        </div>
+            <hr className="md:mt-10 mt-6" />
 
-        <div className="mb-10">
-          <hr className="mt-12" />
-          <footer className="mt-16 flex">
-            <p className="w-[60%] text-xl font-tertiaryFont">
-              © 2023 Templify by Patryk Moskot
-            </p>
-
-            <div className=" w-[40%] flex justify-end ">
-              <a href="MyWork2">
-                <p className="font-primaryFont text-3xl  relative group">
-                  Work
-                  <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+            <div className="">
+              <div className="md:mt-12 mt-7 flex md:flex-row flex-col">
+                <p className="w-1/2 md:text-8xl text-5xl md:space-y-8">
+                  Let's <br /> work <br /> together
                 </p>
-                </a>
 
-              
-                <a href="MoreAbout">
-            <p className="text-3xl ml-8 font-primaryFont relative group">
+                <p className="md:w-1/2 w-full font-secondaryFont md:text-xl text-lg md:leading-8 leading-7 mt-4">
+                  I'm very happy to tackle new challenges and dive into the most
+                  innovative projects. If you are looking for a dedicated and
+                  enthusiastic designer to enhance your vision, this is where it
+                  will end. We'll work together to develop unique experiences
+                  that will be remembered forever. Contact me, and let's go on
+                  an exciting journey together to meet your objectives!
+                  <div className="md:mt-10 mt-4 md:text-3xl text-xl w-full ml-4 font-tertiaryFont font-semibold relative group">
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+                    festusandrew23@gmail.com
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className='md:mb-10 mb-4'>
+       <hr className="md:mt-12 mt-6" />
+      <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
+      <p className="md:w-[60%] text-xl md:font-tertiaryFont md:mt-5 md:mr-20 flex justify-center">
+          © 2024 Festus Andrew
+        </p>
+
+        <div className="md:w-[40%] w-full flex md:justify-end justify-center mt-6">
+          <a href="MyWork2">
+            <p className="font-primaryFont md:text-3xl text-2xl  relative group">
+              Work
+              <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
+            </p>
+          </a>
+
+          <a href="MoreAbout">
+            <p className="md:text-3xl text-2xl ml-8 font-primaryFont relative group">
               About
               <span class="absolute bottom-0 left-0 w-0 h-0.5  bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
             </p>
           </a>
-                
-            </div>
-          </footer>
         </div>
+
+      </footer>
+    </div>
       </div>
     </section>
   );

@@ -100,7 +100,7 @@ const Works = () => {
 
           <div className="">
             <div className="md:mt-12 mt-7 flex md:flex-row flex-col">
-              <p className="w-1/2 md:text-8xl text-5xl md:space-y-8">
+              <p className="md:w-1/2 w-full md:text-8xl text-5xl md:space-y-8">
                 Let's <br /> work <br /> together
               </p>
 
