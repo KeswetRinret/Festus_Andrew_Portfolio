@@ -75,7 +75,7 @@ const Hero = () => {
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
-          <p className="md:mt-6 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl text-sm md:ml-32 ml-6 w-full  ">
+          <p className="md:mt-6 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl text-sm md:ml-32 ml-10 w-full  ">
             I am a Designer based in Jos, Nigeria.
           </p>
 
