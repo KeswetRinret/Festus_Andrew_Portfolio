@@ -71,7 +71,7 @@ const Hero = () => {
         </div>
 
         <div className="md:w-[80%] w-full mt-5 md:mt-8 ">
-          <p className="font-tertiaryFont  ml-11 w-full lg:ml-12  md:mx-0 mx-3 md:text-6xl text-3xl font-semibold  md:leading-tight">
+          <p className="font-tertiaryFont  ml- w-full lg:ml-12  md:mx-0 mx-3 md:text-6xl text-3xl font-semibold  md:leading-tight">
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
@@ -80,7 +80,7 @@ const Hero = () => {
           </p>
 
           <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:mb-12 mb-10 lg:ml-12 mx-3 md:mx-0 ">
-            <button className="border rounded-full md:w-56 w-full p-3 md:p-2.5 font-bold md:text-lg  bg-primaryColor text-white hover:bg-hoverColor">
+            <button className="border rounded-full md:w-56 w-full p-3 md:p-2.5 font-bold md:text-lg  bg-primaryColor text-white hover:bg-slate-100 hover:text-black">
               <a href="#contact">Let's work together</a>
             </button>
 
