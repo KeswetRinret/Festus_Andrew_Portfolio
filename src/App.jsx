@@ -17,8 +17,10 @@ import MyWork2 from './components/otherPages/MyWork2'
 const App = () => {
   return (
     <div className='overflow-hidden'>
+
       <Routes>
-        <Route path="/" element={<Landing />}/> 
+        
+        <Route exact path="/" element={<Landing />}/> 
         <Route path="/works" element={<Works />}/>
         <Route path="/services" element={<Services />}/>
         <Route path="/marb" element={<Marb />}/>
@@ -29,6 +31,7 @@ const App = () => {
         <Route path="/moreAbout" element={<MoreAbout/>}/>
         <Route path="/myWork2" element={<MyWork2/>}/>
 
+      
       </Routes>
       {/* <Navbar /> */}
     </div>
