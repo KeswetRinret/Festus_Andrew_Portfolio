@@ -175,7 +175,7 @@ const Infinity = () => {
               will end. We'll work together to develop unique experiences that
               will be remembered forever. Contact me, and let's go on an
               exciting journey together to meet your objectives!
-              <div className="md:mt-10 mt-4 md:text-3xl text-2xl font-tertiaryFont font-semibold relative group">
+              <div className="md:mt-10 mt-4 md:text-3xl text-xl w-full ml-4 font-tertiaryFont font-semibold relative group">
                 <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-800 group-hover:w-full group-hover:transition-all group-hover:duration-300"></span>
                 festusandrew23@gmail.com
               </div>

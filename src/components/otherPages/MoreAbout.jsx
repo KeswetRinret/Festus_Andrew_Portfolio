@@ -25,7 +25,7 @@ const About = () => {
         <div className="flex md:flex-row flex-col justify-between md:mt-8 mt-4">
           <div className="md:w-[50%] w-full">
             <img
-              className="rounded-full md:size-auto size-60 ml-12 "
+              className="rounded-full md:size-auto size-60 ml-8 "
               src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
               alt=""
             />

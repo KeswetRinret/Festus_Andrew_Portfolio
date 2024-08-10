@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
-    <div className="container mx-auto my-6 max-w-full">
+    <div className=" md:mx-auto my-6">
       <div className="flex justify-between md:mx-32 mx-6 ">
         <p className="font-primaryFont md:text-4xl text-2xl font-semibold">My Works</p>
           <Link to={"./MyWork2"}>
@@ -13,9 +13,9 @@ const Works = () => {
         </p>
         </Link>
       </div>
-      <hr className="md:mx-32 md:mt-6 mt-6 border mx-6 " />
+      <hr className="md:mx-28 md:mt-6 mt-6 border mx-6 " />
 
-      <div className=" flex  justify-center items-center gap-8 mx-3 md:mx-0 md:mt-14 mt-8 flex-col md:flex-row">
+      <div className=" flex  justify-center items-center gap-8 mx-3 md:mx-4 md:mt-14 mt-8 flex-col md:flex-row">
         <div className="relative overflow-hidden ">
           <Link to={"./Marb"}>
             <img
@@ -47,7 +47,7 @@ const Works = () => {
         </div>
       </div>
 
-      <div className=" flex  justify-center items-center gap-8 mx-3 md:mx-0 mt-8 flex-col md:flex-row">
+      <div className=" flex  justify-center items-center gap-8 mx-3 md:mx-4 mt-8 flex-col md:flex-row">
         <div className="relative overflow-hidden">
           <Link to={"./Infinity"}>
             <img

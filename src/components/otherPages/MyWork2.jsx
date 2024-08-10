@@ -23,7 +23,7 @@ const Works = () => {
 
       <div className=" flex  justify-center items-center gap-8 md:mx-0 md:mt-14 mt-8 flex-col md:flex-row">
         <div className="relative overflow-hidden ">
-          <Link to={"./Marb"}>
+          <Link to={"../../Marb"}>
             <img
               className=" w-[500px] h-64 md:h-[600px] object-cover rounded-2xl hover:scale-110 transition duration-500 cursor-pointer "
               src="https://framerusercontent.com/images/ZuDzZNFD4y4ZbZ3Cf9QFDB0vGs.jpg?scale-down-to=2048"
@@ -39,7 +39,7 @@ const Works = () => {
         </div>
 
         <div className="relative overflow-hidden ">
-          <Link to={"./ProClub"}>
+          <Link to={"../../ProClub"}>
             <img
               className="w-[500px] h-64 md:h-[600px] object-cover rounded-2xl hover:scale-110 transition duration-500 cursor-pointer"
               src="https://framerusercontent.com/images/kYjjTQZX4yro1jpWWY7stCFLY.jpg"
@@ -57,7 +57,7 @@ const Works = () => {
 
       <div className=" flex  justify-center items-center gap-8 md:mx-0 md:mt-14 mt-8 flex-col md:flex-row">
         <div className="relative overflow-hidden">
-          <Link to={"./Infinity"}>
+          <Link to={"../../Infinity"}>
             <img
               className="w-[500px] h-64 md:h-[600px] object-cover rounded-2xl hover:scale-110 transition duration-500 cursor-pointer"
               src="https://framerusercontent.com/images/DjmKQYQKRd2h0Q1wAkfkOGHIYw.jpg"
@@ -73,7 +73,7 @@ const Works = () => {
         </div>
 
         <div className="relative overflow-hidden">
-          <Link to={"./Wander"}>
+          <Link to={"../../Wander"}>
             <img
               className="w-[500px] h-64 md:h-[600px] object-cover rounded-2xl hover:scale-110 transition duration-500 cursor-pointer"
               src="https://framerusercontent.com/images/WisIsy97GUDG2UDk2aEq1F6MUaY.jpg?scale-down-to=2048"

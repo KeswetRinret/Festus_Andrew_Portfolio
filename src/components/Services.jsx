@@ -8,7 +8,7 @@ const Services = () => {
           Services
         </p>
       </div>
-      <hr className="md:mt-0 mt-6 mx-4" />
+      <hr className="md:mt-0 mt-6 mx-4 " />
 
       <div className="flex md:space-x-6 space-x-3">
         <div className="md:text-8xl text-5xl flex items-center font-secondaryFont">1</div>

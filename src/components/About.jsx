@@ -12,7 +12,7 @@ const About = () => {
       <div className="flex md:flex-row-reverse flex-col justify-between mt-8">
       <div className="md:w-[40%] w-auto">
           <img
-            className="rounded-full md:size-auto size-60 ml-12"
+            className="rounded-full md:size-auto size-60 ml-8"
             src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
             alt=""
           />

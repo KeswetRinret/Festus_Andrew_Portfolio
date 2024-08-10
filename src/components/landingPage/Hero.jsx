@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto max-w-[90%] md:my-5 my-2">
+    <div className=" mx-auto max-w-[90%] md:my-5 my-2">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <NavLink to={"/"}>
           <img
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center w-full ">
-        <div className="md:mt-8 md:pl-52 md:w-[25%] hidden md:block">
+        <div className="md:mt-8 md:ml-24 md:w-[20%] hidden md:block">
           <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
             <span>
               <svg
@@ -70,16 +70,16 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="md:w-[75%] w-full mt-5 md:mt-8 ">
-          <p className="font-tertiaryFont md:ml-16 ml-12 w-full md:mx-0 mx-3 md:text-6xl text-3xl font-semibold leading-tight">
+        <div className="md:w-[80%] w-full mt-5 md:mt-8 ">
+          <p className="font-tertiaryFont  ml-11 w-full lg:ml-12  md:mx-0 mx-3 md:text-6xl text-3xl font-semibold  md:leading-tight">
             👋🏼Hey there, it's <br /> Festus Andrew.
           </p>
 
-          <p className="md:mt-6 mt-3 md:mx-0 mx-3 font-tertiaryFont md:text-xl text-sm md:ml-32 ml-10 w-full  ">
+          <p className="md:mt-6 mt-3 md:mx-0 mx-3 md:ml-10 lg:ml-24 font-tertiaryFont md:text-xl text-sm  ml-10 w-full  ">
             I am a Designer based in Jos, Nigeria.
           </p>
 
-          <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:pl-16 md:mb-12 mb-10 md:ml-8 mx-3 md:mx-0 ">
+          <div href="contact" className="md:space-x-8 md:mt-6 mt-6 md:mb-12 mb-10 lg:ml-12 mx-3 md:mx-0 ">
             <button className="border rounded-full md:w-56 w-full p-3 md:p-2.5 font-bold md:text-lg  bg-primaryColor text-white hover:bg-hoverColor">
               <a href="#contact">Let's work together</a>
             </button>
