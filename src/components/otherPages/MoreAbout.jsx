@@ -101,7 +101,7 @@ const About = () => {
         </div>
         <hr className="md:mt-8 mt-4" />
 
-        <div className="flex md:mt-6 mt-2">
+        <div className="flex justify-between md:mt-6 mt-2">
           <div className="">
             <img src={bluehouselogo} alt="" className="w-32 h-32" />
           </div>
@@ -126,6 +126,9 @@ const About = () => {
         <hr className="md:mt-8 mt-6" />
 
         <div className="md:mt-10 mt-6">
+        <div className="">
+            <img src={bluehouselogo} alt="" className="w-32 h-32" />
+          </div>
           <div className="md:ml-8 ml-2">
             <p className="md:text-4xl text-2xl font-semibold">
               Zeustek Solutions
@@ -252,7 +255,7 @@ const About = () => {
        <hr className="md:mt-12 mt-6" />
       <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
       <p className="md:w-[60%] text-xl md:font-tertiaryFont md:mt-5 md:mr-20 flex justify-center">
-          © 2024 Festus Andrew
+      @ 2024 Festus Andrew
         </p>
 
         <div className="md:w-[40%] w-full flex md:justify-end justify-center mt-6">
