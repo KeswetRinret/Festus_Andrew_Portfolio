@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import bluehouselogo from "../../assets/images/bluehouselogo.png";
 
+
 const About = () => {
   return (
     <section id="MoreAbout">
@@ -127,7 +128,7 @@ const About = () => {
 
         <div className="md:mt-10 mt-6">
         <div className="">
-            <img src={bluehouselogo} alt="" className="w-32 h-32" />
+            {/* <img src={} alt="" className="w-32 h-32" /> */}
           </div>
           <div className="md:ml-8 ml-2">
             <p className="md:text-4xl text-2xl font-semibold">
@@ -153,6 +154,9 @@ const About = () => {
         <hr className="md:mt-8 mt-6" />
 
         <div className="md:mt-10 mt-6">
+        <div className="">
+            {/* <img src={} alt="" className="w-32 h-32" /> */}
+          </div>
           <div className="md:ml-8 ml-2">
             <p className="md:text-4xl text-2xl font-semibold">Genesys Hub</p>
             <p className="md:text-2xl text-xl md:mt-4 mt-2">
