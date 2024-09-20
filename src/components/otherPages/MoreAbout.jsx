@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import bluehouselogo from "../../assets/images/bluehouselogo.png";
+import zuesteklogo from "../../assets/images/zuesteklogo.png"
+import genesyslogologo from "../../assets/images/genesyslogo.png"
 
 
 const About = () => {
@@ -102,15 +104,15 @@ const About = () => {
         </div>
         <hr className="md:mt-8 mt-4" />
 
-        <div className="flex justify-between md:mt-6 mt-2">
+        <div className="flex md:mt-6 mt-2">
           <div className="">
             <img src={bluehouselogo} alt="" className="w-32 h-32" />
           </div>
 
-          <div className="md:mt-6 mt-5">
+          <div className="md:mt-5 mt-7 ml-4 md:ml-6">
             <p className="md:text-4xl text-2xl font-semibold">Bluehouse</p>
 
-            <p className="md:text-2xl text-xl md:mt-2 mt-1">Design Lead</p>
+            <p className="md:text-2xl text-lg mt-1">Design Lead</p>
           </div>
         </div>
         <div className="md:mt-8 mt-0">
@@ -127,17 +129,16 @@ const About = () => {
         <hr className="md:mt-8 mt-6" />
 
         <div className="md:mt-10 mt-6">
+          <div className="flex
+          ">
         <div className="">
-            {/* <img src={} alt="" className="w-32 h-32" /> */}
+            <img src={zuesteklogo} alt="" className="w-32 h-32" />
           </div>
-          <div className="md:ml-8 ml-2">
-            <p className="md:text-4xl text-2xl font-semibold">
-              Zeustek Solutions
-            </p>
-            <p className="md:text-2xl text-xl md:mt-4 mt-2">
-              {" "}
-              Freelance Product Designer
-            </p>
+          <div className="md:mt- mt-9 ml-1 md:ml-6">
+            <p className="md:text-4xl text-2xl font-semibold">Zuestek</p>
+
+            <p className="md:text-2xl text-lg md:mt-1 mt-1"> Freelance Product Designer</p>
+          </div>
           </div>
           <div>
             <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
@@ -153,15 +154,17 @@ const About = () => {
         </div>
         <hr className="md:mt-8 mt-6" />
 
-        <div className="md:mt-10 mt-6">
+        <div className=" md:mt-10 mt-6">
+          <div className="flex">
         <div className="">
-            {/* <img src={} alt="" className="w-32 h-32" /> */}
+            <img src={genesyslogologo} alt="" className="w-32 h-32" />
           </div>
-          <div className="md:ml-8 ml-2">
-            <p className="md:text-4xl text-2xl font-semibold">Genesys Hub</p>
-            <p className="md:text-2xl text-xl md:mt-4 mt-2">
-              Upskill Product Designer
-            </p>
+          <div className="md:mt- mt-7 ml-4 md:ml-6">
+            <p className="md:text-4xl text-2xl font-semibold">
+            Genesys Hub</p>
+
+            <p className="md:text-2xl text-lg md:mt-1 mt-1"> Upskill Product Designer</p>
+          </div>
           </div>
           <div>
             <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
