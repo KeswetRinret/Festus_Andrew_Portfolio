@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
+import Contact from "../Contact";
 
 
 const Wander = () => {
@@ -159,7 +160,7 @@ const Wander = () => {
         </div>
       </div>
 
-      <div className="md:mt-16 mt-12 ">
+      {/* <div className="md:mt-16 mt-12 ">
         <div href="contact">
           <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">Contact</p>
         </div>
@@ -185,7 +186,7 @@ const Wander = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
         {/* <div className='md:mb-10 mb-4'> */}
        {/* <hr className="md:mt-12 mt-6" /> */}
       {/* <footer className="md:mt-16 mt-8 flex md:flex-row flex-col"> */}
@@ -213,6 +214,8 @@ const Wander = () => {
       {/* </footer> */}
     {/* </div> */}
     </div>
+
+    <Contact />
     <Footer />
     </div>
   );

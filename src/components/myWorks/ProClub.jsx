@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
+import Contact from "../Contact";
 
 
 const ProClub = () => {
@@ -166,7 +167,7 @@ const ProClub = () => {
         </div>
       </div>
 
-      <div className="md:mt-16 mt-12"></div>
+      {/* <div className="md:mt-16 mt-12">
       <div>
         <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">Contact</p>
       </div>
@@ -190,8 +191,9 @@ const ProClub = () => {
                 festusandrew23@gmail.com
               </div>
           </p>
+          </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className='md:mb-10 mb-4'>
        <hr className="md:mt-12 mt-6" />
@@ -219,7 +221,9 @@ const ProClub = () => {
       </footer>
     </div> */}
     </div>
-          <Footer />
+
+       <Contact />
+      <Footer />
     </div>
   );
 };

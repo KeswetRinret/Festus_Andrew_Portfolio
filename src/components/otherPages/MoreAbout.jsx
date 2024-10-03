@@ -1,236 +1,246 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import bluehouselogo from "../../assets/images/bluehouselogo.png";
-import zuesteklogo from "../../assets/images/zuesteklogo.png"
-import genesyslogologo from "../../assets/images/genesyslogo.png"
+import zuesteklogo from "../../assets/images/zuesteklogo.png";
+import genesyslogologo from "../../assets/images/genesyslogo.png";
 import Footer from "../Footer";
-
+import Contact from "../Contact";
 
 const About = () => {
   return (
     <div>
-    <section id="MoreAbout">
-      <div className="md:mx-32 mx-4 md:my-6 my-2">
-        <div className="w-full flex flex-col justify-center items-center space-y-2">
-          <NavLink to={"/"}>
-            <img
-              className="rounded-full size-36"
-              src="https://framerusercontent.com/images/KwncUFvOHcwyCrBvsIzWSbIoxSc.png"
-              alt=""
-            />
-          </NavLink>
-        </div>
-        <div>
-          <p className="md:text-5xl text-3xl mt-8 font-tertiaryFont font-semibold">
-            About me
-          </p>
-        </div>
-        <hr className="md:mt-8 mt-4" />
-
-        <div className="flex md:flex-row flex-col justify-between md:mt-8 mt-4">
-          <div className="md:w-[50%] w-full">
-            <img
-              className="rounded-full md:size-auto size-60 ml-8 "
-              src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
-              alt=""
-            />
+      <section id="MoreAbout">
+        <div className="md:mx-32 mx-4 md:my-6 my-2">
+          <div className="w-full flex flex-col justify-center items-center space-y-2">
+            <NavLink to={"/"}>
+              <img
+                className="rounded-full size-36"
+                src="https://framerusercontent.com/images/KwncUFvOHcwyCrBvsIzWSbIoxSc.png"
+                alt=""
+              />
+            </NavLink>
           </div>
-          <div className="md:w-[50%] w-full">
-            <p className="md:text-xl text-lg md:mt-6 mt-4 font-secondaryFont leading-7 space-y-2 ">
-              Hello! I'm Festus Andrew, a passionate product designer with
-              Bluehouse Technologies. With over four years of experience in the
-              field, I've had the privilege to delve into various facets of
-              product design, honing my skills and expanding my knowledge along
-              the way. <br /> <br /> At Bluehouse, I serve not only as a product
-              designer but also as a mentor and the current lead of our dynamic
-              design team. Collaborating with talented individuals and guiding
-              them toward achieving their full potential has been one of the
-              most rewarding aspects of my career.
+          <div>
+            <p className="md:text-5xl text-3xl mt-8 font-tertiaryFont font-semibold">
+              About me
             </p>
-            <div className="">
-              <div className="flex justify-center md:gap-8 gap-10 md:mt-8 mt-8">
-                <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
-                  <span>
-                    <svg
-                      className="w-10 h-10"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      fill="#000000"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"></path>
-                    </svg>
-                  </span>
-                </a>
+          </div>
+          <hr className="md:mt-8 mt-4" />
 
-                <a href="https://www.linkedin.com/in/festusandrew?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                  <span>
-                    <svg
-                      className="w-10 h-10 "
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      fill="#000000"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
-                    </svg>
-                  </span>
-                </a>
+          <div className="flex md:flex-row flex-col justify-between md:mt-8 mt-4">
+            <div className="md:w-[50%] w-full">
+              <img
+                className="rounded-full md:size-auto size-60 ml-8 "
+                src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
+                alt=""
+              />
+            </div>
+            <div className="md:w-[50%] w-full">
+              <p className="md:text-xl text-lg md:mt-6 mt-4 font-secondaryFont leading-7 space-y-2 ">
+                Hello! I'm Festus Andrew, a passionate product designer with
+                Bluehouse Technologies. With over four years of experience in
+                the field, I've had the privilege to delve into various facets
+                of product design, honing my skills and expanding my knowledge
+                along the way. <br /> <br /> At Bluehouse, I serve not only as a
+                product designer but also as a mentor and the current lead of
+                our dynamic design team. Collaborating with talented individuals
+                and guiding them toward achieving their full potential has been
+                one of the most rewarding aspects of my career.
+              </p>
+              <div className="">
+                <div className="flex justify-center md:gap-8 gap-10 md:mt-8 mt-8">
+                  <a href="https://x.com/1st_2s?t=crHq9Iq7XNVWcYbxIp1b3w&s=09">
+                    <span>
+                      <svg
+                        className="w-10 h-10"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        fill="#000000"
+                        viewBox="0 0 256 256"
+                      >
+                        <path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"></path>
+                      </svg>
+                    </span>
+                  </a>
 
-                <a href="https://www.instagram.com/1st_2s?igsh=Y29kZG53b2ptbDlu">
-                  <span>
-                    <svg
-                      className="w-10 h-10"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      fill="#000000"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
-                    </svg>
-                  </span>
-                </a>
+                  <a href="https://www.linkedin.com/in/festusandrew?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <span>
+                      <svg
+                        className="w-10 h-10 "
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        fill="#000000"
+                        viewBox="0 0 256 256"
+                      >
+                        <path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
+                      </svg>
+                    </span>
+                  </a>
+
+                  <a href="https://www.instagram.com/1st_2s?igsh=Y29kZG53b2ptbDlu">
+                    <span>
+                      <svg
+                        className="w-10 h-10"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        fill="#000000"
+                        viewBox="0 0 256 256"
+                      >
+                        <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div></div>
-        <div className="md:mt-20 mt-14">
-          <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">
-            My Experience
-          </p>
-        </div>
-        <hr className="md:mt-8 mt-4" />
-
-        <div className="flex md:mt-6 mt-2">
-          <div className="">
-            <img src={bluehouselogo} alt="" className="w-32 h-32" />
-          </div>
-
-          <div className="md:mt-5 mt-7 ml-4 md:ml-6">
-            <p className="md:text-4xl text-2xl font-semibold">Bluehouse</p>
-
-            <p className="md:text-2xl text-lg mt-1">Design Lead</p>
-          </div>
-        </div>
-        <div className="md:mt-8 mt-0">
-          <p className="md:text-xl text-lg font-secondaryFont md:mt-2 mt-0 md:leading-8 leading-7">
-            My role involves undertaking extensive research and user testing,
-            engaging in ideation, and developing wireframes. I'm dedicated to
-            crafting refined, high-fidelity user experiences and interfaces for
-            iOS, Android, and Web platforms. I collaborate intimately with
-            developers, product managers, and stakeholders, ensuring a cohesive
-            and integrated approach. My focus is on designing experiences that
-            are not only data-driven but also deeply human-centric.
-          </p>
-        </div>
-        <hr className="md:mt-8 mt-6" />
-
-        <div className="md:mt-10 mt-6">
-          <div className="flex
-          ">
-        <div className="">
-            <img src={zuesteklogo} alt="" className="w-32 h-32" />
-          </div>
-          <div className="md:mt- mt-9 ml-1 md:ml-6">
-            <p className="md:text-4xl text-2xl font-semibold">Zuestek</p>
-
-            <p className="md:text-2xl text-lg md:mt-1 mt-1"> Freelance Product Designer</p>
-          </div>
-          </div>
-          <div>
-            <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
-              I specialize in designing clear, efficient UI/UX-driven interfaces
-              for web and mobile platforms, committed to delivering superior
-              quality outcomes. My responsibilities extend to overseeing design
-              projects are a success. A key aspect of my role is to ensure that
-              our designs are in harmony with our clients' business objectives,
-              achieved through close collaboration with our developers and
-              engineers.
+          <div></div>
+          <div className="md:mt-20 mt-14">
+            <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">
+              My Experience
             </p>
           </div>
-        </div>
-        <hr className="md:mt-8 mt-6" />
+          <hr className="md:mt-8 mt-4" />
 
-        <div className=" md:mt-10 mt-6">
-          <div className="flex">
-        <div className="">
-            <img src={genesyslogologo} alt="" className="w-32 h-32" />
-          </div>
-          <div className="md:mt- mt-7 ml-4 md:ml-6">
-            <p className="md:text-4xl text-2xl font-semibold">
-            Genesys Hub</p>
+          <div className="flex md:mt-6 mt-2">
+            <div className="">
+              <img src={bluehouselogo} alt="" className="w-32 h-32" />
+            </div>
 
-            <p className="md:text-2xl text-lg md:mt-1 mt-1"> Upskill Product Designer</p>
+            <div className="md:mt-5 mt-7 ml-4 md:ml-6">
+              <p className="md:text-4xl text-2xl font-semibold">Bluehouse</p>
+
+              <p className="md:text-2xl text-lg mt-1">Design Lead</p>
+            </div>
           </div>
-          </div>
-          <div>
-            <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
-              I am involved in crafting the visual design and developing
-              prototypes for mobile and web applications. My work entails a
-              collaborative effort with the design team, stakeholders, product
-              owners, and developers, all within an agile framework.
+          <div className="md:mt-8 mt-0">
+            <p className="md:text-xl text-lg font-secondaryFont md:mt-2 mt-0 md:leading-8 leading-7">
+              My role involves undertaking extensive research and user testing,
+              engaging in ideation, and developing wireframes. I'm dedicated to
+              crafting refined, high-fidelity user experiences and interfaces
+              for iOS, Android, and Web platforms. I collaborate intimately with
+              developers, product managers, and stakeholders, ensuring a
+              cohesive and integrated approach. My focus is on designing
+              experiences that are not only data-driven but also deeply
+              human-centric.
             </p>
           </div>
-        </div>
+          <hr className="md:mt-8 mt-6" />
 
-        <div className="md:mt-20 mt-12 md:space-y-12 space-y-8">
-          <div className="">
-            <p className="font-tertiaryFont md:text-5xl text-3xl font-semibold">
-              Services
-            </p>
-          </div>
-          <hr className="md:mx-0 mx-3" />
+          <div className="md:mt-10 mt-6">
+            <div
+              className="flex
+          "
+            >
+              <div className="">
+                <img src={zuesteklogo} alt="" className="w-32 h-32" />
+              </div>
+              <div className="md:mt- mt-9 ml-1 md:ml-6">
+                <p className="md:text-4xl text-2xl font-semibold">Zuestek</p>
 
-          <div className="flex md:space-x-6 space-x-3">
-            <div className="md:text-8xl text-5xl flex items-center font-secondaryFont">
-              1
+                <p className="md:text-2xl text-lg md:mt-1 mt-1">
+                  {" "}
+                  Freelance Product Designer
+                </p>
+              </div>
             </div>
+            <div>
+              <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
+                I specialize in designing clear, efficient UI/UX-driven
+                interfaces for web and mobile platforms, committed to delivering
+                superior quality outcomes. My responsibilities extend to
+                overseeing design projects are a success. A key aspect of my
+                role is to ensure that our designs are in harmony with our
+                clients' business objectives, achieved through close
+                collaboration with our developers and engineers.
+              </p>
+            </div>
+          </div>
+          <hr className="md:mt-8 mt-6" />
+
+          <div className=" md:mt-10 mt-6">
+            <div className="flex">
+              <div className="">
+                <img src={genesyslogologo} alt="" className="w-32 h-32" />
+              </div>
+              <div className="md:mt- mt-7 ml-4 md:ml-6">
+                <p className="md:text-4xl text-2xl font-semibold">
+                  Genesys Hub
+                </p>
+
+                <p className="md:text-2xl text-lg md:mt-1 mt-1">
+                  {" "}
+                  Upskill Product Designer
+                </p>
+              </div>
+            </div>
+            <div>
+              <p className="md:text-xl text-lg font-secondaryFont md:mt-8 mt-4 md:leading-8 leading-7">
+                I am involved in crafting the visual design and developing
+                prototypes for mobile and web applications. My work entails a
+                collaborative effort with the design team, stakeholders, product
+                owners, and developers, all within an agile framework.
+              </p>
+            </div>
+          </div>
+
+          <div className="md:mt-20 mt-12 md:space-y-12 space-y-8">
             <div className="">
-              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
-                Branding
-              </p>
-              <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
-                Revealing your brand's core with a meticulous mix of visuals and
-                strategy. Crafting enduring identities that resonate.
+              <p className="font-tertiaryFont md:text-5xl text-3xl font-semibold">
+                Services
               </p>
             </div>
-          </div>
-          <hr />
+            <hr className="md:mx-0 mx-3" />
 
-          <div className="flex md:space-x-6 space-x-3">
-            <div className="md:text-8xl text-5xl flex items-center ">2</div>
-            <div className="">
-              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
-                Design
-              </p>
-              <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
-                Crafting engaging experiences from the initial click. Creating
-                intuitive interfaces for seamless user interactions.
-              </p>
+            <div className="flex md:space-x-6 space-x-3">
+              <div className="md:text-8xl text-5xl flex items-center font-secondaryFont">
+                1
+              </div>
+              <div className="">
+                <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
+                  Branding
+                </p>
+                <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
+                  Revealing your brand's core with a meticulous mix of visuals
+                  and strategy. Crafting enduring identities that resonate.
+                </p>
+              </div>
             </div>
-          </div>
-          <hr />
-          <div className="flex md:space-x-6 space-x-3">
-            <div className="md:text-8xl text-5xl flex items-center">3</div>
-            <div className="">
-              <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
-                Development
-              </p>
-              <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
-                Transforming visions into dynamic digital realities. From
-                responsive websites to interactive apps, propelling innovation.
-              </p>
-            </div>
-          </div>
-        </div>
+            <hr />
 
-        <section id="contact">
-          <div className="md:mt-20 mt-14 mb-6 h-fit ">
+            <div className="flex md:space-x-6 space-x-3">
+              <div className="md:text-8xl text-5xl flex items-center ">2</div>
+              <div className="">
+                <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
+                  Design
+                </p>
+                <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
+                  Crafting engaging experiences from the initial click. Creating
+                  intuitive interfaces for seamless user interactions.
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div className="flex md:space-x-6 space-x-3">
+              <div className="md:text-8xl text-5xl flex items-center">3</div>
+              <div className="">
+                <p className="md:text-3xl text-2xl font-tertiaryFont font-semibold">
+                  Development
+                </p>
+                <p className="font-secondaryFont text-lg md:mt-4 mt-2 pl-1">
+                  Transforming visions into dynamic digital realities. From
+                  responsive websites to interactive apps, propelling
+                  innovation.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="md:mt-20 mt-14 mb-6 h-fit ">
             <div href="contact">
               <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">
                 Contact
@@ -258,9 +268,9 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </section>
-        {/* <div className='md:mb-10 mb-4'>
+          </div> */}
+
+          {/* <div className='md:mb-10 mb-4'>
        <hr className="md:mt-12 mt-6" />
       <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
       <p className="md:w-[60%] text-xl md:font-tertiaryFont md:mt-5 md:mr-20 flex justify-center">
@@ -285,10 +295,13 @@ const About = () => {
 
       </footer>
     </div> */}
-      </div>
-    </section>
-<Footer />
+        </div>
+      </section>
 
+      <section id="contact">
+        <Contact />
+      </section>
+      <Footer />
     </div>
   );
 };
