@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from './components/landingPage/Hero'
 import Works from './components/myWorks/Works'
-import Services from './components/Services'
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Services from './components/pages/Services'
+import About from './components/pages/About'
+import Contact from './components/pages/Contact'
+import Footer from './components/pages/Footer'
 
 
 const Landing = () => {

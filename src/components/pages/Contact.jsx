@@ -5,7 +5,9 @@ const Contact = () => {
     <section id="contact">
       <div className="md:mx-32 mx-4 md:mt-20 mt-14 mb-6 h-fit ">
         <div href="contact">
-          <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">Contact</p>
+          <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">
+            Contact
+          </p>
         </div>
         <hr className="md:mt-10 mt-6" />
 

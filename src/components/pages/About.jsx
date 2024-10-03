@@ -1,16 +1,17 @@
 import React from "react";
 
-
 const About = () => {
   return (
     <div className="md:mx-32 mx-4 md:mt-20 mt-10 h-fit">
       <div>
-        <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">About</p>
+        <p className="md:text-5xl text-3xl font-tertiaryFont font-semibold">
+          About
+        </p>
       </div>
       <hr className="md:mt-10 mt-6" />
 
       <div className="flex md:flex-row-reverse flex-col justify-between mt-8">
-      <div className="md:w-[40%] w-auto">
+        <div className="md:w-[40%] w-auto">
           <img
             className="rounded-full md:size-auto size-60 ml-8"
             src="https://framerusercontent.com/images/IuUojHQ2ubRvYhbw2cmlrQLats.png"
@@ -23,11 +24,11 @@ const About = () => {
             Bluehouse Technologies. With over four years of experience in the
             field, I've had the privilege to delve into various facets of
             product design, honing my skills and expanding my knowledge along
-            the way. <br /> <br className="md:block hidden" /> At Bluehouse, I serve not only as a product
-            designer but also as a mentor and the current lead of our dynamic
-            design team. Collaborating with talented individuals and guiding
-            them toward achieving their full potential has been one of the most
-            rewarding aspects of my career.
+            the way. <br /> <br className="md:block hidden" /> At Bluehouse, I
+            serve not only as a product designer but also as a mentor and the
+            current lead of our dynamic design team. Collaborating with talented
+            individuals and guiding them toward achieving their full potential
+            has been one of the most rewarding aspects of my career.
           </p>
 
           <div className="flex md:flex-row flex-col items-center">
@@ -85,7 +86,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
