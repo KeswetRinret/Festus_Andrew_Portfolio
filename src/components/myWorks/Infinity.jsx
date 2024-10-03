@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../Footer";
 
 const Infinity = () => {
   return (
+    <div>
     <div className="md:mx-32 mx-4 md:my-4 my-2">
       <div className="w-full flex flex-col justify-center items-center space-y-4">
         <Link to={"/"}>
@@ -183,7 +185,7 @@ const Infinity = () => {
           </div>
         </div>
       </div>
-        <div className='md:mb-10 mb-4'>
+        {/* <div className='md:mb-10 mb-4'>
        <hr className="md:mt-12 mt-6" />
       <footer className="md:mt-16 mt-8 flex md:flex-row flex-col">
       <p className="md:w-[60%] text-xl md:font-tertiaryFont md:mt-5 md:mr-20 flex justify-center">
@@ -207,7 +209,9 @@ const Infinity = () => {
         </div>
 
       </footer>
+    </div> */}
     </div>
+    <Footer />
     </div>
   );
 };

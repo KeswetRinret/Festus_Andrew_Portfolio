@@ -1,8 +1,10 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import Footer from "../Footer";
 
 const Works = () => {
   return (
+    <div>
     <div className="mx-4 md:my-6 my-2 md:max-w-full ">
       <div className="w-full flex flex-col justify-center items-center space-y-2">
         <NavLink to={"/"}>
@@ -121,7 +123,7 @@ const Works = () => {
         </div>
       </section>
 
-      <div className="md:mx-32 mx-4 md:mb-10 mb-6">
+      {/* <div className="md:mx-32 mx-4 md:mb-10 mb-6">
         <hr className="md:mt-12 mt-6" />
         <footer className="md:mt-16 mt-8 flex">
           <p className="md:w-[60%] md:text-xl md:font-tertiaryFont hidden md:block">
@@ -144,7 +146,10 @@ const Works = () => {
             </a>
           </div>
         </footer>
-      </div>
+      </div> */}
+    </div>
+<Footer />
+
     </div>
   );
 };
